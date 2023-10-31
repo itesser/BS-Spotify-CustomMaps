@@ -1,8 +1,8 @@
 import spotipy
-from dotenv import load_dotenv
 import os
 import pandas as pd
 from pathlib import Path
+import streamlit as st
 
 folder_dir = f"{Path(__file__).parents[0]}\\data\\"
 
@@ -14,9 +14,8 @@ class SpotPush:
         self.mega_playlist = "2IAYFqUH5Zj1TmwqvtSIAM"
 
     def spotify_connection(self):
-        load_dotenv()
-        spot_id = os.getenv("SPOTCLIENT")
-        spot_key = os.getenv("SPOTSECRET")
+        spot_id = st.secrets["SPOTCLIENT"]
+        spot_key = st.secrets["SPOTSECRET"]
         client_credentials_manager = spotipy.SpotifyClientCredentials(
             client_id=spot_id, client_secret=spot_key
         )
