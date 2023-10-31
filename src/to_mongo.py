@@ -1,6 +1,5 @@
 from pymongo.mongo_client import MongoClient
 import os
-from dotenv import load_dotenv
 import pandas as pd
 from pathlib import Path
 from beats import Beats
@@ -14,7 +13,6 @@ folder_dir = f"{Path(__file__).parents[0]}\\data\\"
 class ToMongo:
     def __init__(self):
         # initialize an instance of our inherited class
-        load_dotenv()
         self.__mongo_url = st.secrets["MONGOURL"]
         # connect to Mongo
         self.client = MongoClient(self.__mongo_url)
