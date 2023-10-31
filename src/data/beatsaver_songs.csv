@@ -1,51 +1,51 @@
 ,bs_map_id,title,artist,mapper_name,mapper_id,duration_seconds,auto_mapped,upload_date,upvotes,downvotes,score,tags,difficulties,last_fetched
-0,36baa,Mukyu Meiyaku,Mitsuki Nakae,Vassa,119144,222,False,2023-10-31T14:36:05.024314Z,0,0,0.5,"['balanced', 'tech', 'j-pop']","['Hard', 'Expert', 'ExpertPlus']",2023-10-31
-1,36cab,Gold,Echos,olaf,4284646,250,False,2023-10-31T14:18:45.187796Z,0,0,0.5,['accuracy'],['ExpertPlus'],2023-10-31
-2,36caa,Once In A Lifetime,DragonForce,WDG_Bug,61590,468,False,2023-10-31T14:16:02.299302Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-31
-3,36c6c,Halloween Night!,hololive IDOL PROJECT,Slayx,4284422,226,False,2023-10-31T14:12:12.139688Z,0,0,0.5,['balanced'],['ExpertPlus'],2023-10-31
-4,36ca9,Be Crazy For Me,EIKO Starring 96neko,Porunto_eastwood,4319011,288,False,2023-10-31T14:11:47.982594Z,0,0,0.5,"['balanced', 'dance-style', 'anime', 'j-pop']",['ExpertPlus'],2023-10-31
-5,36ca8,Hello (BPM) 2021,Camellia,Darkrealm7,4285538,143,False,2023-10-31T14:07:05.606297Z,0,0,0.5,"['challenge', 'speedcore']",['ExpertPlus'],2023-10-31
-6,36ca6,Bankai,Libercio,Blenderman,152063,107,False,2023-10-31T13:32:09.329371Z,0,0,0.5,"['challenge', 'speed', 'electronic']",['ExpertPlus'],2023-10-31
-7,36ca5,でんでん心電図,ぺぽよ,ken-UMA,164213,265,False,2023-10-31T12:00:43.822176Z,3,0,0.7195,"['accuracy', 'speed', 'anime']","['Hard', 'Expert']",2023-10-31
-8,36ca4,Herzalarm,FiNCH & Blümchen,skeelie,4235153,193,False,2023-10-31T11:18:39.332667Z,0,0,0.5,"['tech', 'techno', 'electronic']","['Hard', 'Expert', 'ExpertPlus']",2023-10-31
-9,36c73,Begotten,A Night In The Abyss,MrKingfisher,4285638,420,False,2023-10-31T11:00:00.392391Z,0,0,0.5,"['speed', 'metal']","['Hard', 'Expert', 'ExpertPlus']",2023-10-31
-10,36c70,Son Of Self Affliction,A Night In The Abyss,MrKingfisher,4285638,284,False,2023-10-31T11:00:00.383925Z,1,0,0.6129,"['speed', 'metal']","['Expert', 'ExpertPlus']",2023-10-31
-11,36c72,Suspended By A Thread,A Night In The Abyss,MrKingfisher,4285638,333,False,2023-10-31T11:00:00.375533Z,0,0,0.5,"['speed', 'metal']","['Expert', 'ExpertPlus']",2023-10-31
-12,36c6f,One For Sorrow,A Night In The Abyss,MrKingfisher,4285638,343,False,2023-10-31T11:00:00.358747Z,0,0,0.5,"['speed', 'metal']","['Expert', 'ExpertPlus']",2023-10-31
-13,36ca1,Water Sausage,Ordinary Sausage,mrpickler,4334477,61,False,2023-10-31T10:38:51.917878Z,0,0,0.5,"['challenge', 'comedy-meme']","['Expert', 'ExpertPlus']",2023-10-31
-14,36ca0,梦幻旋律,,ken-UMA,164213,74,False,2023-10-31T11:25:43.042924Z,4,0,0.75,"['anime', 'accuracy']",['Expert'],2023-10-31
-15,36c9d,The Evil Folk,KAAZE,Hartz,4286516,159,False,2023-10-31T08:43:11.727428Z,2,0,0.6771,"['challenge', 'dance-style', 'electronic', 'dance']","['Expert', 'ExpertPlus']",2023-10-31
-16,36c9b,Flashbacks,Craspore,Superkota5,152715,207,False,2023-10-31T07:34:05.126853Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-31
-17,36c99,the king,anjimille,1nefario,4278239,34,False,2023-10-31T05:16:20.236029Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-31
-18,36c98,why? v3,Cringy,MXW_skulls,159767,26,False,2023-10-31T04:54:24.910149Z,0,0,0.5,['none'],"['Hard', 'Expert', 'ExpertPlus']",2023-10-31
-19,36c97,放課後の屋上 ,TBvwv,fakepope,4284770,134,False,2023-10-31T03:18:16.548263Z,5,0,0.7732,['none'],['ExpertPlus'],2023-10-31
-20,36c96,偏心 (Unfair),EXO,Qiu_rou,165708,185,False,2023-10-31T03:12:29.239849Z,5,0,0.7732,"['balanced', 'dance-style']","['Expert', 'Expert']",2023-10-31
-21,36c95,absolute fire ,benevolence (me),WDG_benevolence,4312282,8,False,2023-10-31T03:01:42.117587Z,0,0,0.5,['none'],"['Normal', 'Hard', 'Expert', 'ExpertPlus']",2023-10-31
-22,36c94,Father into my hands,,Cyn3,138826,120,False,2023-10-31T01:59:26.313634Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-31
-23,36c92,Emergency,Pegboard Nerds,Gamesloter,169602,253,False,2023-10-31T01:31:08.424163Z,3,0,0.7195,"['balanced', 'electronic', 'dance']","['Expert', 'ExpertPlus']",2023-10-31
-24,36c8c,Say It Back,tv room,oddloop,4284400,166,False,2023-10-31T04:22:17.617387Z,1,0,0.6129,['none'],['ExpertPlus'],2023-10-31
-25,36c90,Doggy spooky,MisterMainer,MXW_skulls,159767,133,False,2023-10-31T00:22:38.012655Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-31
-26,36c8e,Xylobone: Revenge of the Skelephone,Tanger,CodeSoft,107765,203,False,2023-10-31T00:10:59.184376Z,3,3,0.5,['none'],['ExpertPlus'],2023-10-31
-27,1bf24,Spooky Tune,PrototypeRaptor,Smile249,4284314,219,False,2023-10-30T23:00:00.399565Z,6,0,0.7915,"['balanced', 'electronic']","['ExpertPlus', 'ExpertPlus']",2023-10-31
-28,36c88,Anybody Out There,Hardwell & Azteck,deltafox,3999,192,False,2023-10-30T22:57:32.331980Z,2,0,0.6771,['none'],['ExpertPlus'],2023-10-31
-29,36c85,j meow,j,schonk,4280470,6,False,2023-10-30T22:15:32.065750Z,0,0,0.5,"['balanced', 'dance-style']","['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus']",2023-10-31
-30,36c84,Rivers Is a Vampire,"Bear Ghost, Dan E.T.",de125,1561,186,False,2023-10-30T22:31:53.779458Z,1,0,0.6129,"['dance-style', 'tech', 'indie', 'rock']",['ExpertPlus'],2023-10-31
-31,36c82,Empire of toads,,Cyn3,138826,78,False,2023-10-30T22:09:28.986578Z,0,0,0.5,['none'],"['Easy', 'ExpertPlus']",2023-10-31
-32,36c81,As The World Caves In ,Matt Maltese,keona,161456,66,False,2023-10-30T21:37:14.995116Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-31
-33,36c7e,Life is inherent suffering...,Biwee,ForsenCDPogU,4284542,86,False,2023-10-30T21:10:00.402905Z,2,0,0.6771,['dubstep'],['ExpertPlus'],2023-10-31
-34,36c7d,Pighead ,Swarm.,ForsenCDPogU,4284542,253,False,2023-10-30T21:10:00.385976Z,0,0,0.5,['dubstep'],['ExpertPlus'],2023-10-31
-35,36c7f,Evilness,Kretery,ForsenCDPogU,4284542,126,False,2023-10-30T21:10:00.363350Z,3,0,0.7195,['dubstep'],['ExpertPlus'],2023-10-31
-36,36c6a,Don't Call Me Baby,Madison Avenue,jicklus,169974,230,False,2023-10-30T18:44:09.146942Z,2,0,0.6771,"['fitness', 'dance-style', 'pop', 'dance']",['Expert'],2023-10-31
-37,36c63,Billiardär,Julien Bam + Knossi,Shyno,121497,145,False,2023-10-30T18:02:24.244048Z,0,0,0.5,['none'],['Expert'],2023-10-31
-38,36c5e,i remember,bbno$,Kassi,4293090,205,False,2023-10-30T16:45:16.164849Z,2,0,0.6771,"['tech', 'accuracy', 'pop', 'hip-hop-rap']","['Expert', 'ExpertPlus']",2023-10-31
-39,36c38,Oh Crap Got Diahrrea,don_solenodon,Klondike,4298683,29,False,2023-10-30T16:14:41.862253Z,2,0,0.6771,['none'],['ExpertPlus'],2023-10-31
-40,36c59,Billie Eilish,Dal Av & Jackson Rose,bethbot,4289677,103,False,2023-10-30T16:12:38.160748Z,3,0,0.7195,"['balanced', 'tech', 'metal']","['Hard', 'Expert', 'ExpertPlus']",2023-10-31
-41,36c55,Heroine,"Parsa, Vieze Asbak",RoadieRune,78957,108,False,2023-10-30T14:56:56.995910Z,0,0,0.5,['none'],"['Expert', 'ExpertPlus']",2023-10-31
-42,36c54,Wild Challenger,,kagepoyo,4354981,63,False,2023-10-30T14:45:02.932272Z,2,0,0.6771,['none'],"['ExpertPlus', 'Expert', 'ExpertPlus']",2023-10-31
-43,36c53,no no no mister fish,fsih,schonk,4280470,8,False,2023-10-30T14:44:48.016107Z,0,0,0.5,"['accuracy', 'challenge', 'pop', 'hip-hop-rap']",['ExpertPlus'],2023-10-31
-44,36c52,As The World Caves In ,Matt Maltese,keona,161456,66,False,2023-10-30T14:36:17.914566Z,0,0,0.5,"['accuracy', 'alternative']",['ExpertPlus'],2023-10-31
-45,36c51,Loveholic,feat.Sana,kagepoyo,4354981,117,False,2023-10-30T13:57:07.852834Z,1,0,0.6129,"['video-game-soundtrack', 'j-pop']","['Expert', 'ExpertPlus', 'ExpertPlus']",2023-10-31
-46,36bd0,PoΣΣεssion,t404:null,komeijisan051,4285211,350,False,2023-10-31T09:19:09.824387Z,7,1,0.7392,"['balanced', 'tech', 'hardcore', 'electronic']",['ExpertPlus'],2023-10-31
-47,36c42,PowerSound,skrillex,Gibro,132527,342,False,2023-10-30T16:23:24.401840Z,10,1,0.7835,"['speed', 'accuracy', 'dubstep', 'electronic']","['Expert', 'ExpertPlus']",2023-10-31
-48,36c41,勇者/Yuusha,YOASOBI,fefy,4285467,93,False,2023-10-30T11:40:25.720133Z,18,0,0.883,"['dance-style', 'tech', 'j-pop', 'anime']",['ExpertPlus'],2023-10-31
-49,36c10,Our Fighting,Quna,ApprShal,4303857,240,False,2023-10-30T11:00:14.930608Z,6,0,0.7915,['none'],"['Easy', 'Expert', 'ExpertPlus']",2023-10-31
+0,36cae,Rogue,DUSTCELL,winteredge,4349995,112,False,2023-10-31T16:28:28.462863Z,1,0,0.6129,"['tech', 'j-pop', 'j-rock']","['Normal', 'Hard', 'Expert', 'ExpertPlus']",2023-10-31
+1,36c7a,End of world,Laur,A-PlouVR,4299986,347,False,2023-10-31T16:00:00.343972Z,0,0,0.5,"['tech', 'balanced', 'hardcore']",['ExpertPlus'],2023-10-31
+2,36c6d,浸透少女,Yusura,misterlihao,4284977,109,False,2023-10-31T15:56:41.756019Z,1,0,0.6129,"['j-pop', 'j-rock', 'balanced', 'speed']","['Hard', 'Expert', 'ExpertPlus', 'ExpertPlus']",2023-10-31
+3,36baa,Mukyu Meiyaku,Mitsuki Nakae,Vassa,119144,222,False,2023-10-31T14:36:05.024314Z,1,0,0.6129,"['balanced', 'tech', 'j-pop']","['Hard', 'Expert', 'ExpertPlus']",2023-10-31
+4,36cab,Gold,Echos,olaf,4284646,250,False,2023-10-31T14:18:45.187796Z,1,0,0.6129,['accuracy'],['ExpertPlus'],2023-10-31
+5,36caa,Once In A Lifetime,DragonForce,WDG_Bug,61590,468,False,2023-10-31T14:16:02.299302Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-31
+6,36c6c,Halloween Night!,hololive IDOL PROJECT,Slayx,4284422,226,False,2023-10-31T14:12:12.139688Z,2,0,0.6771,['balanced'],['ExpertPlus'],2023-10-31
+7,36ca9,Be Crazy For Me,EIKO Starring 96neko,Porunto_eastwood,4319011,288,False,2023-10-31T14:11:47.982594Z,1,0,0.6129,"['balanced', 'dance-style', 'anime', 'j-pop']",['ExpertPlus'],2023-10-31
+8,36ca8,Hello (BPM) 2021,Camellia,Darkrealm7,4285538,143,False,2023-10-31T14:07:05.606297Z,0,0,0.5,"['challenge', 'speedcore']",['ExpertPlus'],2023-10-31
+9,36ca6,Bankai,Libercio,Blenderman,152063,107,False,2023-10-31T13:32:09.329371Z,0,0,0.5,"['challenge', 'speed', 'electronic']",['ExpertPlus'],2023-10-31
+10,36ca5,でんでん心電図,ぺぽよ,ken-UMA,164213,265,False,2023-10-31T12:00:43.822176Z,5,0,0.7732,"['accuracy', 'speed', 'anime']","['Hard', 'Expert']",2023-10-31
+11,36ca4,Herzalarm,FiNCH & Blümchen,skeelie,4235153,193,False,2023-10-31T11:18:39.332667Z,1,0,0.6129,"['tech', 'techno', 'electronic']","['Hard', 'Expert', 'ExpertPlus']",2023-10-31
+12,36c73,Begotten,A Night In The Abyss,MrKingfisher,4285638,420,False,2023-10-31T11:00:00.392391Z,0,0,0.5,"['speed', 'metal']","['Hard', 'Expert', 'ExpertPlus']",2023-10-31
+13,36c70,Son Of Self Affliction,A Night In The Abyss,MrKingfisher,4285638,284,False,2023-10-31T11:00:00.383925Z,1,0,0.6129,"['speed', 'metal']","['Expert', 'ExpertPlus']",2023-10-31
+14,36c72,Suspended By A Thread,A Night In The Abyss,MrKingfisher,4285638,333,False,2023-10-31T11:00:00.375533Z,0,0,0.5,"['speed', 'metal']","['Expert', 'ExpertPlus']",2023-10-31
+15,36c6f,One For Sorrow,A Night In The Abyss,MrKingfisher,4285638,343,False,2023-10-31T11:00:00.358747Z,0,0,0.5,"['speed', 'metal']","['Expert', 'ExpertPlus']",2023-10-31
+16,36ca1,Water Sausage,Ordinary Sausage,mrpickler,4334477,61,False,2023-10-31T10:38:51.917878Z,0,0,0.5,"['challenge', 'comedy-meme']","['Expert', 'ExpertPlus']",2023-10-31
+17,36ca0,梦幻旋律,,ken-UMA,164213,74,False,2023-10-31T11:25:43.042924Z,5,0,0.7732,"['anime', 'accuracy']",['Expert'],2023-10-31
+18,36c9d,The Evil Folk,KAAZE,Hartz,4286516,159,False,2023-10-31T08:43:11.727428Z,2,0,0.6771,"['challenge', 'dance-style', 'electronic', 'dance']","['Expert', 'ExpertPlus']",2023-10-31
+19,36c9b,Flashbacks,Craspore,Superkota5,152715,207,False,2023-10-31T07:34:05.126853Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-31
+20,36c99,the king,anjimille,1nefario,4278239,34,False,2023-10-31T05:16:20.236029Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-31
+21,36c98,why? v3,Cringy,MXW_skulls,159767,26,False,2023-10-31T04:54:24.910149Z,0,0,0.5,['none'],"['Hard', 'Expert', 'ExpertPlus']",2023-10-31
+22,36c97,放課後の屋上 ,TBvwv,fakepope,4284770,134,False,2023-10-31T03:18:16.548263Z,5,0,0.7732,['none'],['ExpertPlus'],2023-10-31
+23,36c96,偏心 (Unfair),EXO,Qiu_rou,165708,185,False,2023-10-31T03:12:29.239849Z,6,0,0.7915,"['balanced', 'dance-style']","['Expert', 'Expert']",2023-10-31
+24,36c95,absolute fire ,benevolence (me),WDG_benevolence,4312282,8,False,2023-10-31T03:01:42.117587Z,0,0,0.5,['none'],"['Normal', 'Hard', 'Expert', 'ExpertPlus']",2023-10-31
+25,36c94,Father into my hands,,Cyn3,138826,120,False,2023-10-31T01:59:26.313634Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-31
+26,36c92,Emergency,Pegboard Nerds,Gamesloter,169602,253,False,2023-10-31T01:31:08.424163Z,3,0,0.7195,"['balanced', 'electronic', 'dance']","['Expert', 'ExpertPlus']",2023-10-31
+27,36c8c,Say It Back,tv room,oddloop,4284400,166,False,2023-10-31T04:22:17.617387Z,1,0,0.6129,['none'],['ExpertPlus'],2023-10-31
+28,36c90,Doggy spooky,MisterMainer,MXW_skulls,159767,133,False,2023-10-31T00:22:38.012655Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-31
+29,36c8e,Xylobone: Revenge of the Skelephone,Tanger,CodeSoft,107765,203,False,2023-10-31T00:10:59.184376Z,3,3,0.5,['none'],['ExpertPlus'],2023-10-31
+30,1bf24,Spooky Tune,PrototypeRaptor,Smile249,4284314,219,False,2023-10-30T23:00:00.399565Z,7,0,0.8064,"['balanced', 'electronic']","['ExpertPlus', 'ExpertPlus']",2023-10-31
+31,36c88,Anybody Out There,Hardwell & Azteck,deltafox,3999,192,False,2023-10-30T22:57:32.331980Z,2,0,0.6771,['none'],['ExpertPlus'],2023-10-31
+32,36c85,j meow,j,schonk,4280470,6,False,2023-10-30T22:15:32.065750Z,0,0,0.5,"['balanced', 'dance-style']","['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus']",2023-10-31
+33,36c84,Rivers Is a Vampire,"Bear Ghost, Dan E.T.",de125,1561,186,False,2023-10-30T22:31:53.779458Z,1,0,0.6129,"['dance-style', 'tech', 'indie', 'rock']",['ExpertPlus'],2023-10-31
+34,36c82,Empire of toads,,Cyn3,138826,78,False,2023-10-30T22:09:28.986578Z,0,0,0.5,['none'],"['Easy', 'ExpertPlus']",2023-10-31
+35,36c81,As The World Caves In ,Matt Maltese,keona,161456,66,False,2023-10-30T21:37:14.995116Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-31
+36,36c7e,Life is inherent suffering...,Biwee,ForsenCDPogU,4284542,86,False,2023-10-30T21:10:00.402905Z,2,0,0.6771,['dubstep'],['ExpertPlus'],2023-10-31
+37,36c7d,Pighead ,Swarm.,ForsenCDPogU,4284542,253,False,2023-10-30T21:10:00.385976Z,0,0,0.5,['dubstep'],['ExpertPlus'],2023-10-31
+38,36c7f,Evilness,Kretery,ForsenCDPogU,4284542,126,False,2023-10-30T21:10:00.363350Z,3,0,0.7195,['dubstep'],['ExpertPlus'],2023-10-31
+39,36c6a,Don't Call Me Baby,Madison Avenue,jicklus,169974,230,False,2023-10-30T18:44:09.146942Z,3,0,0.7195,"['fitness', 'dance-style', 'pop', 'dance']",['Expert'],2023-10-31
+40,36c63,Billiardär,Julien Bam + Knossi,Shyno,121497,145,False,2023-10-30T18:02:24.244048Z,1,0,0.6129,['none'],['Expert'],2023-10-31
+41,36c5e,i remember,bbno$,Kassi,4293090,205,False,2023-10-30T16:45:16.164849Z,2,0,0.6771,"['tech', 'accuracy', 'pop', 'hip-hop-rap']","['Expert', 'ExpertPlus']",2023-10-31
+42,36c38,Oh Crap Got Diahrrea,don_solenodon,Klondike,4298683,29,False,2023-10-30T16:14:41.862253Z,2,0,0.6771,['none'],['ExpertPlus'],2023-10-31
+43,36c59,Billie Eilish,Dal Av & Jackson Rose,calamity,4289677,103,False,2023-10-30T16:12:38.160748Z,3,0,0.7195,"['balanced', 'tech', 'metal']","['Hard', 'Expert', 'ExpertPlus']",2023-10-31
+44,36c55,Heroine,"Parsa, Vieze Asbak",RoadieRune,78957,108,False,2023-10-30T14:56:56.995910Z,0,0,0.5,['none'],"['Expert', 'ExpertPlus']",2023-10-31
+45,36c54,Wild Challenger,,kagepoyo,4354981,63,False,2023-10-30T14:45:02.932272Z,5,0,0.7732,['none'],"['ExpertPlus', 'Expert', 'ExpertPlus']",2023-10-31
+46,36c53,no no no mister fish,fsih,schonk,4280470,8,False,2023-10-30T14:44:48.016107Z,0,0,0.5,"['accuracy', 'challenge', 'pop', 'hip-hop-rap']",['ExpertPlus'],2023-10-31
+47,36c52,As The World Caves In ,Matt Maltese,keona,161456,66,False,2023-10-30T14:36:17.914566Z,0,0,0.5,"['accuracy', 'alternative']",['ExpertPlus'],2023-10-31
+48,36c51,Loveholic,feat.Sana,kagepoyo,4354981,117,False,2023-10-30T13:57:07.852834Z,3,0,0.7195,"['video-game-soundtrack', 'j-pop']","['Expert', 'ExpertPlus', 'ExpertPlus']",2023-10-31
+49,36bd0,PoΣΣεssion,t404:null,komeijisan051,4285211,350,False,2023-10-31T09:19:09.824387Z,7,1,0.7392,"['balanced', 'tech', 'hardcore', 'electronic']",['ExpertPlus'],2023-10-31
