@@ -8,7 +8,7 @@ from spotpull import SpotPull
 from to_mongo import ToMongo
 
 st.title("Collect Some Songs")
-st.text("enter a date to check the last 50 songs posted on that date")
+st.text("enter a date to check 50 random songs posted on that date")
 st.text("empty or invalid dates will return the most recent 50 songs")
 
 st.header("Please use YYYY-MM-DD format")
@@ -22,5 +22,7 @@ if st.button("Get Songs"):
     s.local_save()
     st.text('local csv ready!')
     tm = ToMongo()
+    tm.update_stats()
     tm.upload_one_by_one(s.bs_data)
     st.text('mongo upload done!')
+    tm.client.close()

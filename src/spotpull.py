@@ -127,6 +127,6 @@ class SpotPull(Beats):
         self.bs_data.to_csv(f'{folder_dir}clean_songs.csv')
 
 if __name__ == '__main__':
-   s = SpotPull(local_data=True)
+   s = SpotPull()
    s.local_save()
 

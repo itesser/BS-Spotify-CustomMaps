@@ -1,51 +1,51 @@
-,bs_map_id,title,artist,mapper_name,mapper_id,duration_seconds,auto_mapped,upload_date,tags,difficulties
-0,976a,Collapse,Pixel Terror & Dirty Chime,c-tex,30371,200,False,2020-04-04T23:56:37.759Z,['none'],['Hard']
-1,9768,Sucker for Pain,"Imagine Dragons, Lil Wayne, Wiz Khalifa, Logic, Ty Dolla $ign & X Ambassadors",slide,13622,244,False,2020-04-04T23:06:47.170Z,['none'],"['Hard', 'ExpertPlus']"
-2,9763,Break my heart,Dua Lipa,FireStrike_,3376,223,False,2020-04-04T21:52:42.859Z,['pop'],['ExpertPlus']
-3,9762,Choose You (Dull Machine Remix),Tomsaw,henibem,11864,234,False,2020-04-04T21:47:57.765Z,['none'],['ExpertPlus']
-4,975e,Valley of the Shadow of Death,Matstubs,raxanzeric,24785,200,False,2020-04-04T20:51:57.361Z,['none'],"['Hard', 'Expert', 'ExpertPlus']"
-5,975c,Avalanche,Ganon and Somnium Sound,centaron,30376,108,False,2020-04-04T20:18:18.154Z,['none'],['Expert']
-6,975b,La Cumbia Del Coronavirus,Mister Cumbia,serotonin-fox,30338,219,False,2020-04-04T20:17:18.876Z,['none'],['Expert']
-7,975a,NS22,3034,midddd,4284288,148,False,2020-04-04T20:13:12.470Z,['none'],['ExpertPlus']
-8,9759,Hot,Avril Lavigne,noxn,4289789,204,False,2020-04-04T20:12:29.158Z,['none'],['Expert']
-9,9758,Not Barbie,Tiffany Young,noxn,4289789,207,False,2020-04-04T20:11:22.015Z,['k-pop'],['Expert']
-10,9755,Lightning,Skaven,xxchaoticstrike,30381,166,False,2020-04-04T19:41:28.653Z,['none'],['Expert']
-11,9754,Focus,Ariana Grande,mizmar,28392,212,False,2020-04-04T19:13:45.190Z,['none'],['Expert']
-12,9752,Vivaldi Summer,Kate Tsvetaeva,noraermejo,30383,250,False,2020-04-04T19:00:43.892Z,['none'],['Hard']
-13,9751,Les choristes,Bruno Coulais,noraermejo,30383,141,False,2020-04-04T18:58:48.305Z,['none'],['Normal']
-14,9750,Tau the Song with 6.28318 Million Notes,HDSQ,bailvik,2430,388,False,2020-04-04T18:55:20.553Z,['none'],"['Expert', 'ExpertPlus']"
-15,974f,Comfortably Numb - Venice 1989,Pink Floyd,noraermejo,30383,563,False,2020-04-04T18:41:18.250Z,['none'],"['Normal', 'Hard']"
-16,974c,Himitsudaiyaru,Kokonatsu,koneko_nya,30387,116,False,2020-04-04T17:54:13.674Z,['none'],['Expert']
-17,974b,Stairway To Heaven,Led Zeppelin,ja8n3z,1314,486,False,2020-04-04T17:45:33.297Z,['none'],['ExpertPlus']
-18,974a,Gaston,"Josh Gad, Luke Evans, Ensemble",rtones,29813,264,False,2020-04-04T17:39:46.975Z,['none'],['Normal']
-19,9749,Through A Cardboard World,Toni Leys,baguette,30390,205,False,2020-04-04T17:21:04.564Z,['none'],['ExpertPlus']
-20,9748,SOUP TIME (feat. Unfair Ruler & Collin),Joey Schwa,traumadogz,30391,287,False,2020-04-04T17:03:14.099Z,['none'],['ExpertPlus']
-21,9747,Shivers,Matduke & Metzen,pkdan,4284639,287,False,2020-04-04T17:01:51.205Z,"['hardcore', 'dance']","['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus']"
-22,9746,Bright Future In Sales,Fountains of Wayne,majorpickle,4285018,189,False,2020-04-04T16:53:34.518Z,['none'],['Expert']
-23,9744,Skin to bone,Linkin Park,noraermejo,30383,169,False,2020-04-04T16:28:02.553Z,['none'],['Expert']
-24,9741,Now we are free,Lisa Gerrard,noraermejo,30383,254,False,2020-04-04T16:16:36.975Z,['none'],['Hard']
-25,9740,T'immagini,Vasco Rossi,noraermejo,30383,237,False,2020-04-04T16:00:14.423Z,['none'],['Expert']
-26,973f,Al di fuori di me,Phil Collins,noraermejo,30383,177,False,2020-04-04T15:54:12.979Z,['none'],"['Normal', 'Hard', 'Expert']"
-27,973b,lmyparentsaresleepinginthenextroomandidontwantowakethemup,lil darkie x lil cubensis,bailvik,2430,149,False,2020-04-04T14:47:52.898Z,['none'],['Easy']
-28,973a,U R So Fucked,Infected Mushroom,Joetastic,58338,281,False,2020-04-04T14:40:51.183Z,"['electronic', 'dubstep', 'house']",['ExpertPlus']
-29,9736,Magnetic North,Alestorm,wyxi,1207,227,False,2020-04-04T13:01:46.194Z,"['balanced', 'metal', 'folk-acoustic']","['Hard', 'Expert', 'ExpertPlus']"
-30,9735,Semi Sacred Geometry,Raphael Colantonio & Matt Piersall,crishnate,30401,214,False,2020-04-04T11:31:17.168Z,['none'],['Expert']
-31,9734,Nanairobiyori,nano.RIPE,nsenuesu,288,266,False,2020-04-04T11:18:52.356Z,['none'],['Expert']
-32,9733,Battle Of The Teams,Disneyland Paris,darkcida37,27724,183,False,2020-04-04T10:25:38.100Z,['none'],['ExpertPlus']
-33,9731,Flashes (Hommarju Remix),"Hommarju,Dollscythe",core-pee,24460,230,False,2020-04-04T10:04:58.114Z,['none'],['ExpertPlus']
-34,9730,U.S.A,DA PUMP,fefy,4285467,104,False,2020-04-04T09:48:21.935Z,['none'],"['Hard', 'ExpertPlus']"
-35,972f,Kotoba No Iranai Yakusoku,HoneyWorks,Joetastic,58338,253,False,2020-04-04T09:47:11.419Z,"['anime', 'j-pop']",['Expert']
-36,972c,Nyan Cat Bruh Duck,official bruh moment,fatbeanzoop,4235145,32,False,2020-04-04T05:25:35.906Z,['none'],"['Normal', 'Hard', 'Expert', 'ExpertPlus']"
-37,972b,Misery Business,Paramore,razyboi,3921,213,False,2020-04-04T05:25:00.665Z,['none'],['ExpertPlus']
-38,9728,Indigo - NIKI,NIKI,thiccsmirnoffvodka,30409,176,False,2020-04-04T04:40:03.606Z,['none'],['ExpertPlus']
-39,9726,black bullet,fripSide,CoolingCloset,4284243,108,False,2020-04-04T03:26:16.517Z,['none'],['ExpertPlus']
-40,9725,Break My Heart,Dua Lipa,yomama,4285261,223,False,2020-04-04T03:17:06.970Z,['none'],"['Normal', 'Hard', 'Expert']"
-41,9724,Stacy's Mom,Fountains Of Wayne,majorpickle,4285018,199,False,2020-04-04T03:03:15.587Z,"['pop', 'rock', 'dance-style']","['Expert', 'Expert']"
-42,971e,... And Justice For All,Metallica,taylorfromtflrs,1500,585,False,2020-04-04T00:49:37.557Z,['none'],['Expert']
-43,971d,Dubstep,dubatep,sozznar,30414,13,False,2020-04-04T00:23:17.464Z,['none'],['Normal']
-44,971c,Mushi no Sumu Tokoro,Camellia,de125,1561,275,False,2020-04-04T00:10:01.765Z,['none'],['ExpertPlus']
-45,971a,FALLING,MONXX,dniffel,30416,184,False,2020-04-03T22:16:23.363Z,['none'],['Expert']
-46,9719,Mastrubating on the Roof,Denotraz,de125,1561,216,False,2020-04-03T21:57:41.826Z,['none'],['ExpertPlus']
-47,9717,Way Back When,Grizfolk,Pug,4285404,167,False,2020-04-03T21:46:04.673Z,['none'],['Expert']
-48,9715,Look At Me Now,Chris Brown,SpookyBeard,4285046,221,False,2023-06-07T04:55:53.388288Z,['none'],"['Expert', 'ExpertPlus']"
-49,9714,Kodokushi,Mihka! X Kyoto Black ,monsterwook2,1067,206,False,2020-04-03T20:47:01.278Z,['none'],['ExpertPlus']
+,bs_map_id,title,artist,mapper_name,mapper_id,duration_seconds,auto_mapped,upload_date,upvotes,downvotes,score,tags,difficulties,last_fetched
+0,36c7e,Life is inherent suffering...,Biwee,ForsenCDPogU,4284542,86,False,2023-10-30T21:10:00.402905Z,0,0,0.5,['dubstep'],['ExpertPlus'],2023-10-30
+1,36c7d,Pighead ,Swarm.,ForsenCDPogU,4284542,253,False,2023-10-30T21:10:00.385976Z,0,0,0.5,['dubstep'],['ExpertPlus'],2023-10-30
+2,36c7f,Evilness,Kretery,ForsenCDPogU,4284542,126,False,2023-10-30T21:10:00.363350Z,0,0,0.5,['dubstep'],['ExpertPlus'],2023-10-30
+3,36c6a,Don't Call Me Baby,Madison Avenue,jicklus,169974,230,False,2023-10-30T18:44:09.146942Z,0,0,0.5,"['fitness', 'dance-style', 'pop', 'dance']",['Expert'],2023-10-30
+4,36c64,Say It Back,tv room,oddloop,4284400,164,False,2023-10-30T18:17:46.391627Z,0,0,0.5,"['comedy-meme', 'hip-hop-rap', 'fitness']",['ExpertPlus'],2023-10-30
+5,36c63,Billiardär,Julien Bam + Knossi,Shyno,121497,145,False,2023-10-30T18:02:24.244048Z,0,0,0.5,['none'],['Expert'],2023-10-30
+6,36c5e,i remember,bbno$,Kassi,4293090,205,False,2023-10-30T16:45:16.164849Z,0,0,0.5,"['tech', 'accuracy', 'pop', 'hip-hop-rap']","['Expert', 'ExpertPlus']",2023-10-30
+7,36c38,Oh Crap Got Diahrrea,don_solenodon,Klondike,4298683,29,False,2023-10-30T16:14:41.862253Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-30
+8,36c59,Billie Eilish,Dal Av & Jackson Rose,bethbot,4289677,103,False,2023-10-30T16:12:38.160748Z,1,0,0.6129,"['balanced', 'tech', 'metal']","['Hard', 'Expert', 'ExpertPlus']",2023-10-30
+9,36c55,Heroine,"Parsa, Vieze Asbak",RoadieRune,78957,108,False,2023-10-30T14:56:56.995910Z,0,0,0.5,['none'],"['Expert', 'ExpertPlus']",2023-10-30
+10,36c54,Wild Challenger,,kagepoyo,4354981,63,False,2023-10-30T14:45:02.932272Z,1,0,0.6129,['none'],"['ExpertPlus', 'Expert', 'ExpertPlus']",2023-10-30
+11,36c53,no no no mister fish,fsih,schonk,4280470,8,False,2023-10-30T14:44:48.016107Z,0,0,0.5,"['accuracy', 'challenge', 'pop', 'hip-hop-rap']",['ExpertPlus'],2023-10-30
+12,36c52,As The World Caves In ,Matt Maltese,keona,161456,66,False,2023-10-30T14:36:17.914566Z,0,0,0.5,"['accuracy', 'alternative']",['ExpertPlus'],2023-10-30
+13,36c51,Loveholic,feat.Sana,kagepoyo,4354981,117,False,2023-10-30T13:57:07.852834Z,0,0,0.5,"['video-game-soundtrack', 'j-pop']","['Expert', 'ExpertPlus', 'ExpertPlus']",2023-10-30
+14,36c42,PowerSound,skrillex,Gibro,132527,342,False,2023-10-30T16:23:24.401840Z,4,1,0.6639,"['speed', 'accuracy', 'dubstep', 'electronic']","['Expert', 'ExpertPlus']",2023-10-30
+15,36c41,勇者/Yuusha,YOASOBI,fefy,4285467,93,False,2023-10-30T11:40:25.720133Z,7,0,0.8064,"['dance-style', 'tech', 'j-pop', 'anime']",['ExpertPlus'],2023-10-30
+16,36c10,Our Fighting,Quna,ApprShal,4303857,240,False,2023-10-30T11:00:14.930608Z,2,0,0.6771,['none'],"['Easy', 'Expert', 'ExpertPlus']",2023-10-30
+17,36c0f,(ReMake)Dreaming Little Bird,hayayaP,ApprShal,4303857,221,False,2023-10-30T11:00:11.116880Z,1,0,0.6129,"['alternative', 'vocaloid']","['Normal', 'Expert']",2023-10-30
+18,36c40,Vois sur ton chemin,Bennett,NKDu3130,134057,179,False,2023-10-30T09:50:44.525595Z,1,0,0.6129,"['techno', 'tech', 'hardcore']","['ExpertPlus', 'Easy']",2023-10-30
+19,36c3f,夜行少女,小野道ono,wangyufy,4285274,252,False,2023-10-30T09:22:12.627050Z,7,0,0.8064,"['tech', 'dance-style']","['Hard', 'ExpertPlus']",2023-10-30
+20,36c3b,ROAD to 773H,MYUKKE.,Maiden,4290636,122,False,2023-10-30T05:58:55.573172Z,2,0,0.6771,['none'],['ExpertPlus'],2023-10-30
+21,36c3a,Cerebral Rendezvous/大脳的なランデブ,Kanaria,DiscoBaIIerz,4308508,131,False,2023-10-30T05:40:42.306129Z,7,0,0.8064,['none'],"['Hard', 'ExpertPlus']",2023-10-30
+22,36c39,LIGHTYEAR,bxnji,Auh,169910,126,False,2023-10-30T05:08:35.219297Z,0,1,0.3871,['none'],['ExpertPlus'],2023-10-30
+23,36c37,Diastrophism,Camellia,fartbeef,4290511,125,False,2023-10-30T04:55:18.954051Z,1,0,0.6129,['speed'],['ExpertPlus'],2023-10-30
+24,36c36,Sandstorm,Darude,splash_c6,160913,232,False,2023-10-30T04:29:35.005177Z,0,0,0.5,"['challenge', 'accuracy', 'k-pop', 'nightcore']",['ExpertPlus'],2023-10-30
+25,36c33,Romantic Disaster,Lil Lotus,Klondike,4298683,159,False,2023-10-30T03:36:47.903104Z,3,0,0.7195,"['tech', 'balanced']",['ExpertPlus'],2023-10-30
+26,36c32,why? v2,Cringy,MXW_skulls,159767,26,False,2023-10-30T03:36:35.863268Z,0,0,0.5,['none'],['Expert'],2023-10-30
+27,36c31,Marlboro Nights,Lonely God,chillBS,4286446,69,False,2023-10-30T03:32:36.478791Z,0,0,0.5,"['challenge', 'speed', 'alternative', 'indie']",['ExpertPlus'],2023-10-30
+28,36c2f,Underground,ReLogic,studentmaplete,4284633,181,False,2023-10-30T02:59:47.099829Z,0,0,0.5,"['challenge', 'comedy-meme', 'ambient']",['ExpertPlus'],2023-10-30
+29,36c2e,Charade,Ruby My Dear,Glasso050,150785,282,False,2023-10-30T02:09:37.168025Z,0,1,0.3871,"['speed', 'tech', 'dubstep', 'electronic']",['ExpertPlus'],2023-10-30
+30,36c28,MONEY POWER FAME,Lil Darkie,Devonix,4285027,186,False,2023-10-30T01:14:48.363626Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-30
+31,36c27,As The World Caves In ,Matt Maltese,keona,161456,66,False,2023-10-30T00:55:30.591498Z,0,0,0.5,['none'],['ExpertPlus'],2023-10-30
+32,36c26,fricking guards,w artist,gagecorduck,4286472,241,False,2023-10-30T00:52:29.965665Z,0,0,0.5,['none'],"['Expert', 'ExpertPlus']",2023-10-30
+33,36c25,Invader,Laur,HOFNutCollector,4347244,186,False,2023-10-30T00:41:20.663536Z,2,0,0.6771,"['tech', 'hardcore', 'electronic']",['ExpertPlus'],2023-10-30
+34,36c24,Goodbye,Magnetude,Niigeli,169885,303,False,2023-10-30T00:48:12.997711Z,1,0,0.6129,"['drum-and-bass', 'electronic']",['Hard'],2023-10-30
+35,36c20,Here We Go Again,JINI,WKD_Raven,4339574,184,False,2023-10-30T00:23:51.041862Z,7,0,0.8064,"['balanced', 'k-pop']",['ExpertPlus'],2023-10-30
+36,36c1f,Escape,BabyEcho0Beabts,BabyEcho0Beats,167293,162,False,2023-10-30T16:12:37.391880Z,0,0,0.5,"['dance-style', 'fitness', 'dance', 'pop']",['ExpertPlus'],2023-10-30
+37,36c1e,Six Shooter,Coyote Kisses,DrachenTamer,4289866,219,False,2023-10-29T23:44:29.541481Z,4,0,0.75,"['balanced', 'dance-style']",['ExpertPlus'],2023-10-30
+38,36c1d,pear,pear,schonk,4280470,11,False,2023-10-29T23:10:43.922154Z,1,1,0.5,"['challenge', 'dance-style', 'funk-disco', 'pop']",['ExpertPlus'],2023-10-30
+39,36c1c,coconut,coconut,schonk,4280470,16,False,2023-10-29T23:10:29.267562Z,0,1,0.3871,"['tech', 'speed', 'holiday', 'indie']",['ExpertPlus'],2023-10-30
+40,36c1b,lettuce,lettuce,schonk,4280470,8,False,2023-10-29T23:10:09.975657Z,0,1,0.3871,"['balanced', 'accuracy', 'folk-acoustic', 'punk']",['ExpertPlus'],2023-10-30
+41,36c1a,cucumber,cucumber,schonk,4280470,4,False,2023-10-29T23:09:52.580725Z,0,1,0.3871,"['balanced', 'accuracy', 'holiday', 'j-pop']",['ExpertPlus'],2023-10-30
+42,36c19,bread,bread,schonk,4280470,34,False,2023-10-29T23:09:08.851914Z,0,1,0.3871,"['balanced', 'dance-style', 'pop', 'holiday']",['ExpertPlus'],2023-10-30
+43,36c18,blueberry,blueberry,schonk,4280470,11,False,2023-10-29T23:08:53.818144Z,0,1,0.3871,"['dance-style', 'challenge', 'hardcore', 'house']",['ExpertPlus'],2023-10-30
+44,36c17,orange,orange,schonk,4280470,11,False,2023-10-29T23:08:38.108272Z,0,1,0.3871,"['tech', 'comedy-meme', 'fitness', 'tv-movie-soundtrack']",['ExpertPlus'],2023-10-30
+45,36c16,starfruit,starfruit,schonk,4280470,25,False,2023-10-29T23:08:22.374874Z,0,1,0.3871,"['balanced', 'accuracy', 'nightcore', 'rb']",['ExpertPlus'],2023-10-30
+46,36c12,Temptation,M2U,Fainted,4296148,136,False,2023-10-29T22:37:42.158712Z,9,0,0.8294,"['dance-style', 'tech']",['ExpertPlus'],2023-10-30
+47,36c11,enchanted love,linear ring,1100ping_boi,4342792,132,False,2023-10-29T22:25:40.180133Z,5,0,0.7732,"['tech', 'balanced', 'dubstep', 'electronic']",['ExpertPlus'],2023-10-30
+48,36c0c,Model Buses,Lovejoy,HeroicBanjo3809,134823,172,False,2023-10-29T22:05:32.662723Z,3,0,0.7195,"['indie', 'rock']",['ExpertPlus'],2023-10-30
+49,36c0e,NEUTRON SANDBOX,Kobaryo,Ingaar,147590,142,False,2023-10-29T21:47:39.446263Z,2,0,0.6771,"['challenge', 'tech', 'speedcore']",['ExpertPlus'],2023-10-30

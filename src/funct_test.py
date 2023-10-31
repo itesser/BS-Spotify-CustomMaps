@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 import re
 
+# Testing Beats functions
 
 class Beats:
 
@@ -23,9 +24,7 @@ class Beats:
         except:
             return ''
 
-
-
-if __name__ == '__home__':
+if __name__ == '__main__':
     query_date = input('enter YYYY-MM-DD for a specific date. improper date formats will show most recent songs') ## This will turn into a button on streamlit
     b = Beats(query_date)
     print(b.full_url)
