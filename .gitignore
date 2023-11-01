@@ -2,3 +2,6 @@ venv/
 src/*.env
 .streamlit/secrets.toml
 src/.streamlit/secrets.toml
+before/
+later/
+*.ipynb
