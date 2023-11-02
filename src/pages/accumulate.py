@@ -9,7 +9,7 @@ from spotpull import SpotPull
 from to_mongo import ToMongo
 
 st.title("Collect Some Songs")
-st.text("Enter a date to check 50 maps posted on that date")
+st.write("Enter a date to check 50 maps posted on that date")
 date = st.date_input(
     "Map Upload Date",
     value="today",
@@ -18,11 +18,11 @@ date = st.date_input(
 )
 date = str(date)
 if st.button("Get Those Songs"):
-    st.text("Please be patient, results may take 60 seconds to appear")
+    st.write("Please be patient, results may take 60 seconds to appear")
     try:
         s = SpotPull(date)
         s.lookit_me = s.bs_data
-        st.write(
+        st.caption(
             """Buttons in the upper-right corner of the table can be used to:
             Download as CSV, Search, or View Full Screen"""
         )
@@ -43,7 +43,9 @@ if st.button("Get Those Songs"):
         st.subheader("What's next?")
         st.text("Wait just a bit longer for me to digest this data...")
         s.local_save()
-        st.write("Local CSV ready! - Go to the Analyze page to see stats on these songs")
+        st.write(
+            "Local CSV ready! - Go to the Analyze page to see stats on these songs"
+        )
         st.text("...adding songs to database...")
         tm = ToMongo()
         tm.update_stats()
@@ -52,5 +54,7 @@ if st.button("Get Those Songs"):
             "Mongo upload done! - These songs will be incorporated in Stats - All Time and Query results"
         )
     except:
-        st.write("Unable to find songs on that date. Please select a new date and try again")
+        st.write(
+            "Unable to find songs on that date. Please select a new date and try again"
+        )
         st.write("If the problem persists, try reloading this webpage.")
