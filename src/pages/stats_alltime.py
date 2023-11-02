@@ -11,7 +11,7 @@ from to_mongo import ToMongo
 folder_dir = f"{Path(__file__).parents[1]}\\data\\"
 c = ToMongo()
 df = pd.DataFrame(list(c.songs.find()))
-
+st.set_page_config(layout="wide")
 ## setting up the dataframe for charts
 
 df = df[['title', 'artist', 'mapper_name', 'duration_seconds', 
@@ -66,11 +66,10 @@ fig = px.scatter(
     hover_data=["title", "artist"],
     color="difficulties",
     size="score",
-    height=550,
-    width=750
+    height=500
 )
 fig.update_layout(legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01))
-st.plotly_chart(fig, theme=None)
+st.plotly_chart(fig, use_container_width=True, theme=None)
 
 #dropdown has suggested graphs plus "pick my own"
 graph_options = [

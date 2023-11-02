@@ -10,3 +10,6 @@ st.text("Check statistics on matching songs from your sample")
 
 st.header("Alltime Stats")
 st.text("Browse stats for all analyzed songs")
+
+st.header("Query the Catalog")
+st.text("Search all accumulated records")

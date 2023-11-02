@@ -1,53 +1,53 @@
 ,bs_map_id,title,artist,mapper_name,mapper_id,duration_seconds,auto_mapped,upload_date,upvotes,downvotes,score,tags,difficulties,last_fetched
-0,3577f,u wanna,michael rose ai,edgyguns_,113944,120,False,2023-11-01T20:04:04.974679Z,0,0,0.5,"['tech', 'balanced', 'pop']",['ExpertPlus'],2023-11-01
-1,36d03,Shiawase,Dion Timmer,my5t1c6l,163424,183,False,2023-11-01T19:54:03.881035Z,0,0,0.5,"['speed', 'accuracy', 'dance']",['ExpertPlus'],2023-11-01
-2,36d02,Dronwning,VAGUE003,luna23597,169296,123,False,2023-11-01T19:39:15.717028Z,0,0,0.5,['none'],['Expert'],2023-11-01
-3,36d01,Hello (Unreleased Track),Kylie Minogue,cimmaronvalley,165203,147,False,2023-11-01T18:58:39.462302Z,0,0,0.5,"['techno', 'dance-style', 'pop']","['Easy', 'Expert', 'ExpertPlus']",2023-11-01
-4,36d00,jezus christus is dus mijn vriend,gladde paling & UH!!!,MXW_skulls,159767,94,False,2023-11-01T18:47:32.086532Z,0,0,0.5,['none'],['ExpertPlus'],2023-11-01
-5,36cfd,Happy,NF,jzawhatls,170252,245,False,2023-11-01T18:15:13.825466Z,0,0,0.5,['none'],"['Normal', 'Hard', 'ExpertPlus']",2023-11-01
-6,36cfc,Love Train,Kylie Minogue,cimmaronvalley,165203,176,False,2023-11-01T18:12:34.296890Z,0,1,0.3871,"['dance-style', 'pop', 'dance']",['Expert'],2023-11-01
-7,36cfb,Tension (Chromeo Mix),Kylie Minogue,cimmaronvalley,165203,247,False,2023-11-01T17:45:19.927938Z,0,0,0.5,"['dance-style', 'pop', 'electronic']","['Easy', 'Expert', 'ExpertPlus']",2023-11-01
-8,36cf2,OMG,NewJeans,eurnkung,4285115,146,False,2023-11-01T17:00:00.726882Z,0,0,0.5,"['balanced', 'dance-style', 'k-pop']","['Expert', 'ExpertPlus']",2023-11-01
-9,36cb5,Sour Candy,"Lady Gaga, BLACKPINK",minsiii,4326041,151,False,2023-11-01T17:00:00.567159Z,0,0,0.5,"['tech', 'k-pop', 'pop']",['ExpertPlus'],2023-11-01
-10,36cb3,FLOWER,JISOO,meoaww,119875,160,False,2023-11-01T17:00:00.513566Z,0,0,0.5,"['fitness', 'balanced', 'k-pop', 'electronic']","['Expert', 'ExpertPlus']",2023-11-01
-11,36cf6,Super Shy,NewJeans,tocxx,4285509,172,False,2023-11-01T18:48:52.637191Z,2,0,0.6771,"['speed', 'tech', 'k-pop', 'hardcore']",['ExpertPlus'],2023-11-01
-12,36cc7,How You Like That,BLACKPINK,Lalahti,113814,145,False,2023-11-01T17:00:00.464876Z,0,0,0.5,['k-pop'],"['Hard', 'Expert', 'ExpertPlus']",2023-11-01
-13,36cde,Kill This Love,BLACKPINK,Jonas_0_0,120215,210,False,2023-11-01T17:00:00.445148Z,0,0,0.5,"['balanced', 'k-pop']",['ExpertPlus'],2023-11-01
-14,36c91,Ice Cream,BLACKPINK x Selena Gomez,WKD_Raven,4339574,166,False,2023-11-01T17:00:00.421432Z,0,0,0.5,"['balanced', 'k-pop']",['ExpertPlus'],2023-11-01
-15,36cc0,Pink Venom,BLACKPINK,Bellus,145971,134,False,2023-11-01T17:00:00.404425Z,1,0,0.6129,"['dance-style', 'tech', 'k-pop']","['Expert', 'ExpertPlus']",2023-11-01
-16,36c6b,SOLO,JENNIE,Royal,4285088,138,False,2023-11-01T17:00:00.378869Z,1,0,0.6129,"['balanced', 'speed', 'k-pop', 'electronic']",['ExpertPlus'],2023-11-01
-17,36cb4,Pretty Savage,BLACKPINK,fatahkent,4334191,196,False,2023-11-01T17:54:29.948857Z,0,0,0.5,"['tech', 'k-pop', 'electronic']",['ExpertPlus'],2023-11-01
-18,36cf5,Port Ormos,HOYO-MiX,JaVRier,4284412,103,False,2023-11-01T16:02:06.207264Z,2,0,0.6771,"['balanced', 'video-game-soundtrack']",['ExpertPlus'],2023-11-01
-19,36cf4,Halloween Is Chaos,RoughSketch,oermergeesh,4284595,244,False,2023-11-01T19:41:30.111725Z,0,1,0.3871,"['tech', 'dance-style', 'hardcore', 'electronic']",['ExpertPlus'],2023-11-01
-20,36cf3,Re:Re i made a snail pancake,"4649nadeshiko",Wooffley,123452,95,False,2023-11-01T14:24:24.409509Z,0,0,0.5,['accuracy'],"['Hard', 'Expert', 'ExpertPlus']",2023-11-01
-21,36cf1,Distortion,BABYMETAL,nitronik.exe,4284201,187,False,2023-11-01T14:15:16.838882Z,5,0,0.7732,"['balanced', 'tech', 'metal']","['Hard', 'Expert', 'ExpertPlus']",2023-11-01
-22,36cf0,Teo,Omoi,chikinbiskit,4284497,210,False,2023-11-01T18:09:24.279075Z,7,3,0.6354,"['balanced', 'j-rock', 'vocaloid']","['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus']",2023-11-01
-23,36cdd,Pink Panik!!,Nanahira&Camellia,siro,2464,229,False,2023-11-01T11:15:05.420365Z,12,0,0.8535,['none'],['ExpertPlus'],2023-11-01
-24,36cdc,"Hana to, Yuki to, Drum n Bass",kanone feat. Sennzai,rodysan,4284718,144,False,2023-11-01T08:55:46.664444Z,10,0,0.8386,"['balanced', 'speed', 'drum-and-bass']","['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus']",2023-11-01
-25,36ccd,"Over ""Quartzer""",末吉秀太,ken-UMA,164213,75,False,2023-11-01T08:06:00.231330Z,3,0,0.7195,"['accuracy', 'speed', 'tv-movie-soundtrack']",['Expert'],2023-11-01
-26,3665d,Halzion,YOASOBI,chikinbiskit,4284497,199,False,2023-11-01T06:00:00.376065Z,22,2,0.8341,"['balanced', 'j-pop']","['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus']",2023-11-01
-27,36cc8,dansmuziek,gladde paling,MXW_skulls,159767,101,False,2023-11-01T04:01:24.702184Z,0,0,0.5,['none'],['ExpertPlus'],2023-11-01
-28,36c93,KOQSHO,t+pazolite & RoughSketch,CMP1111,75106,238,False,2023-11-01T03:40:01.340918Z,3,1,0.625,"['hardcore', 'electronic', 'balanced', 'challenge']","['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus', 'Normal']",2023-11-01
-29,36cc5,BATTLE NO.1,"TANO*C Sound Team
+0,36d4c,disconsolate outro,plec0 + elwood,dahdumbguy,4286246,181,False,2023-11-02T00:41:11.564071Z,0,0,0.5,"['challenge', 'tech', 'vocaloid', 'speedcore']",['ExpertPlus'],2023-11-01
+1,36d4b,Secret Illumination,Yooh,sharkzyu,169893,158,False,2023-11-02T00:37:28.019777Z,1,0,0.6129,"['tech', 'dubstep', 'instrumental']",['ExpertPlus'],2023-11-01
+2,36d4a,Ghost Family Living In Graveyard,RoughSketch,CosmonautSaitni,4326833,277,False,2023-11-02T00:31:28.552864Z,0,0,0.5,"['challenge', 'folk-acoustic', 'funk-disco', 'accuracy']",['ExpertPlus'],2023-11-01
+3,36d45,Tension,Kylie Minogue,picklesmcgoo,4309540,218,False,2023-11-01T23:13:41.771860Z,0,0,0.5,"['pop', 'dance-style', 'fitness', 'dance']",['ExpertPlus'],2023-11-01
+4,36d42,Diabolic Swing,,Cyn3,138826,154,False,2023-11-01T22:52:28.942982Z,0,0,0.5,['none'],"['Easy', 'ExpertPlus']",2023-11-01
+5,36d37,zeemeeuw, gladde paling,gagecorduck,4286472,89,False,2023-11-01T22:46:22.957847Z,0,0,0.5,['none'],['ExpertPlus'],2023-11-01
+6,36d22,Wasted Youth,Secret Band,dentalstonk,4285353,173,False,2023-11-01T22:19:06.879644Z,0,0,0.5,"['challenge', 'tech', 'metal', 'rock']",['ExpertPlus'],2023-11-01
+7,36d07,oei,Gladde Paling,schonk,4280470,130,False,2023-11-01T21:45:50.072223Z,1,0,0.6129,"['accuracy', 'dance-style', 'anime', 'hip-hop-rap']",['ExpertPlus'],2023-11-01
+8,36d08,Sweden-C418(Remix)Minecraft Soundtrack,,Romatangoji,151766,186,False,2023-11-01T21:45:10.401084Z,0,0,0.5,"['video-game-soundtrack', 'drum-and-bass', 'accuracy', 'speed']",['Expert'],2023-11-01
+9,36d05,Mechanized Memories - in the end -,Frequency,sofmoh,4347402,329,False,2023-11-01T21:03:12.502888Z,0,0,0.5,"['tech', 'j-rock', 'alternative', 'balanced']",['ExpertPlus'],2023-11-01
+10,36d04,My Ordinary Life,The Living Tombstone,nogamea444YT,141615,234,False,2023-11-01T20:33:52.873335Z,0,0,0.5,['none'],['ExpertPlus'],2023-11-01
+11,3577f,u wanna,michael rose ai,edgyguns_,113944,120,False,2023-11-01T20:04:04.974679Z,1,0,0.6129,"['tech', 'balanced', 'pop']",['ExpertPlus'],2023-11-01
+12,36d03,Shiawase,Dion Timmer,my5t1c6l,163424,183,False,2023-11-01T19:54:03.881035Z,0,0,0.5,"['speed', 'accuracy', 'dance']",['ExpertPlus'],2023-11-01
+13,36d02,Dronwning,VAGUE003,luna23597,169296,123,False,2023-11-01T19:39:15.717028Z,0,0,0.5,['none'],['Expert'],2023-11-01
+14,36d01,Hello (Unreleased Track),Kylie Minogue,cimmaronvalley,165203,147,False,2023-11-01T18:58:39.462302Z,0,0,0.5,"['techno', 'dance-style', 'pop']","['Easy', 'Expert', 'ExpertPlus']",2023-11-01
+15,36d00,jezus christus is dus mijn vriend,gladde paling & UH!!!,MXW_skulls,159767,94,False,2023-11-01T18:47:32.086532Z,1,0,0.6129,['none'],['ExpertPlus'],2023-11-01
+16,36cfd,Happy,NF,jzawhatls,170252,245,False,2023-11-01T18:15:13.825466Z,0,1,0.3871,['none'],"['Normal', 'Hard', 'ExpertPlus']",2023-11-01
+17,36cfc,Love Train,Kylie Minogue,cimmaronvalley,165203,176,False,2023-11-01T18:12:34.296890Z,0,1,0.3871,"['dance-style', 'pop', 'dance']",['Expert'],2023-11-01
+18,36cfb,Tension (Chromeo Mix),Kylie Minogue,cimmaronvalley,165203,247,False,2023-11-01T17:45:19.927938Z,0,0,0.5,"['dance-style', 'pop', 'electronic']","['Easy', 'Expert', 'ExpertPlus']",2023-11-01
+19,36cf2,OMG,NewJeans,eurnkung,4285115,146,False,2023-11-01T17:00:00.726882Z,3,0,0.7195,"['balanced', 'dance-style', 'k-pop']","['Expert', 'ExpertPlus']",2023-11-01
+20,36cb5,Sour Candy,"Lady Gaga, BLACKPINK",minsiii,4326041,151,False,2023-11-01T17:00:00.567159Z,2,1,0.5732,"['tech', 'k-pop', 'pop']",['ExpertPlus'],2023-11-01
+21,36cb3,FLOWER,JISOO,meoaww,119875,160,False,2023-11-01T17:00:00.513566Z,3,0,0.7195,"['fitness', 'balanced', 'k-pop', 'electronic']","['Expert', 'ExpertPlus']",2023-11-01
+22,36cf6,Super Shy,NewJeans,tocxx,4285509,172,False,2023-11-01T18:48:52.637191Z,5,0,0.7732,"['speed', 'tech', 'k-pop', 'hardcore']",['ExpertPlus'],2023-11-01
+23,36cc7,How You Like That,BLACKPINK,Lalahti,113814,145,False,2023-11-01T17:00:00.464876Z,5,0,0.7732,['k-pop'],"['Hard', 'Expert', 'ExpertPlus']",2023-11-01
+24,36cde,Kill This Love,BLACKPINK,Jonas_0_0,120215,210,False,2023-11-01T17:00:00.445148Z,3,0,0.7195,"['balanced', 'k-pop']",['ExpertPlus'],2023-11-01
+25,36c91,Ice Cream,BLACKPINK x Selena Gomez,WKD_Raven,4339574,166,False,2023-11-01T17:00:00.421432Z,3,0,0.7195,"['balanced', 'k-pop']",['ExpertPlus'],2023-11-01
+26,36cc0,Pink Venom,BLACKPINK,Bellus,145971,134,False,2023-11-01T17:00:00.404425Z,4,0,0.75,"['dance-style', 'tech', 'k-pop']","['Expert', 'ExpertPlus']",2023-11-01
+27,36c6b,SOLO,JENNIE,Royal,4285088,138,False,2023-11-01T17:00:00.378869Z,4,0,0.75,"['balanced', 'speed', 'k-pop', 'electronic']",['ExpertPlus'],2023-11-01
+28,36cb4,Pretty Savage,BLACKPINK,fatahkent,4334191,196,False,2023-11-01T17:54:29.948857Z,4,0,0.75,"['tech', 'k-pop', 'electronic']",['ExpertPlus'],2023-11-01
+29,36cf5,Port Ormos,HOYO-MiX,JaVRier,4284412,103,False,2023-11-01T16:02:06.207264Z,2,0,0.6771,"['balanced', 'video-game-soundtrack']",['ExpertPlus'],2023-11-01
+30,36cf4,Halloween Is Chaos,RoughSketch,oermergeesh,4284595,244,False,2023-11-01T19:41:30.111725Z,1,1,0.5,"['tech', 'dance-style', 'hardcore', 'electronic']",['ExpertPlus'],2023-11-01
+31,36cf3,Re:Re i made a snail pancake,"4649nadeshiko",Wooffley,123452,95,False,2023-11-01T14:24:24.409509Z,0,0,0.5,['accuracy'],"['Hard', 'Expert', 'ExpertPlus']",2023-11-01
+32,36cf1,Distortion,BABYMETAL,nitronik.exe,4284201,187,False,2023-11-01T14:15:16.838882Z,7,0,0.8064,"['balanced', 'tech', 'metal']","['Hard', 'Expert', 'ExpertPlus']",2023-11-01
+33,36cf0,Teo,Omoi,chikinbiskit,4284497,210,False,2023-11-01T18:09:24.279075Z,15,4,0.7238,"['balanced', 'j-rock', 'vocaloid']","['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus']",2023-11-01
+34,36cdd,Pink Panik!!,Nanahira&Camellia,siro,2464,229,False,2023-11-01T11:15:05.420365Z,13,0,0.8598,['none'],['ExpertPlus'],2023-11-01
+35,36cdc,"Hana to, Yuki to, Drum n Bass",kanone feat. Sennzai,rodysan,4284718,144,False,2023-11-01T08:55:46.664444Z,11,0,0.8465,"['balanced', 'speed', 'drum-and-bass']","['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus']",2023-11-01
+36,36ccd,"Over ""Quartzer""",末吉秀太,ken-UMA,164213,75,False,2023-11-01T08:06:00.231330Z,4,0,0.75,"['accuracy', 'speed', 'tv-movie-soundtrack']",['Expert'],2023-11-01
+37,3665d,Halzion,YOASOBI,chikinbiskit,4284497,199,False,2023-11-01T06:00:00.376065Z,25,3,0.8217,"['balanced', 'j-pop']","['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus']",2023-11-01
+38,36cc8,dansmuziek,gladde paling,MXW_skulls,159767,101,False,2023-11-01T04:01:24.702184Z,0,0,0.5,['none'],['ExpertPlus'],2023-11-01
+39,36c93,KOQSHO,t+pazolite & RoughSketch,CMP1111,75106,238,False,2023-11-01T03:40:01.340918Z,3,1,0.625,"['hardcore', 'electronic', 'balanced', 'challenge']","['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus', 'Normal']",2023-11-01
+40,36cc5,BATTLE NO.1,"TANO*C Sound Team
 
 ",VoltageChallengePosts,4349351,13,False,2023-11-01T02:04:44.840416Z,1,0,0.6129,['none'],['ExpertPlus'],2023-11-01
-30,36cc2,Don't be a coward,Staswalle,minerdiscovery,164421,114,False,2023-11-01T01:57:00.149554Z,0,1,0.3871,['none'],['Easy'],2023-11-01
-31,36cbe,Escape from the City - Qumu Remix,Qumu,4orizon,4332614,133,False,2023-11-01T00:19:38.718807Z,12,0,0.8535,"['dance-style', 'video-game-soundtrack']","['Hard', 'Expert', 'ExpertPlus']",2023-11-01
-32,36cbd,PANDORAPALACE [200TBPSYBOMB] AshZRemix,Ash_Z,Basef134,148647,213,False,2023-11-01T00:05:40.000726Z,0,0,0.5,"['tech', 'balanced', 'video-game-soundtrack', 'hardcore']",['ExpertPlus'],2023-11-01
-33,36cbb,(execute.),Ardolf,Phoenix,4284947,140,False,2023-10-31T21:45:05.442436Z,3,0,0.7195,"['balanced', 'electronic', 'hardcore']",['ExpertPlus'],2023-11-01
-34,36a23,Excited About Burger,Vylet Pony,Phoenix,4284947,62,False,2023-10-31T21:45:00.364629Z,9,0,0.8294,"['dance-style', 'comedy-meme']","['Expert', 'ExpertPlus']",2023-11-01
-35,36cba,ハニィ・レディ？,Suzuha Yumi,Suiba,166676,304,False,2023-10-31T21:34:03.017923Z,8,2,0.7031,['tech'],"['Hard', 'Expert', 'ExpertPlus']",2023-11-01
-36,36cb9,BREAKCORE MIXER 50 BPM,?,BrittieBeast,84645,6,False,2023-10-31T20:17:15.350687Z,0,0,0.5,"['challenge', 'tech', 'comedy-meme', 'electronic']",['ExpertPlus'],2023-11-01
-37,36cb8,help_urself,Ezekiel,Tsunami_Pro,132278,150,False,2023-10-31T20:15:54.714329Z,0,0,0.5,['none'],['ExpertPlus'],2023-11-01
-38,36cb6,wish u were dead,KYURO3,ForsenCDPogU,4284542,240,False,2023-10-31T19:47:40.986639Z,3,0,0.7195,"['speed', 'speedcore']",['ExpertPlus'],2023-11-01
-39,36cb2,Sonic Blaster,F-777,Speedy0248,4288107,182,False,2023-10-31T18:06:10.912738Z,0,1,0.3871,['none'],['ExpertPlus'],2023-11-01
-40,36cb1,WACCA ULTRA DREAM MEGAMIX,USAO & Kobaryo,nolanimations,4235156,355,False,2023-10-31T17:28:17.536225Z,18,0,0.883,['none'],['ExpertPlus'],2023-11-01
-41,36caf,Alibi,Distrion,BabyEcho0Beats,167293,194,False,2023-10-31T16:58:26.000715Z,0,0,0.5,"['dance-style', 'tech', 'pop', 'vocaloid']",['ExpertPlus'],2023-11-01
-42,36cae,Rogue,DUSTCELL,winteredge,4349995,112,False,2023-11-01T14:02:50.448547Z,18,0,0.883,"['tech', 'j-pop', 'j-rock']","['Normal', 'Hard', 'Expert', 'ExpertPlus']",2023-11-01
-43,36c7a,End of world,Laur,A-PlouVR,4299986,347,False,2023-10-31T16:00:00.343972Z,3,0,0.7195,"['tech', 'balanced', 'hardcore']",['ExpertPlus'],2023-11-01
-44,36c6d,浸透少女,Yusura,misterlihao,4284977,109,False,2023-10-31T15:56:41.756019Z,36,2,0.8798,"['j-pop', 'j-rock', 'balanced']","['Hard', 'Expert', 'ExpertPlus', 'ExpertPlus']",2023-11-01
-45,36baa,Mukyu Meiyaku,Mitsuki Nakae,Vassa,119144,222,False,2023-10-31T14:36:05.024314Z,11,0,0.8465,"['balanced', 'tech', 'j-pop']","['Hard', 'Expert', 'ExpertPlus']",2023-11-01
-46,36cab,Gold,Echos,olaf,4284646,250,False,2023-10-31T14:18:45.187796Z,6,0,0.7915,['accuracy'],['ExpertPlus'],2023-11-01
-47,36caa,Once In A Lifetime,DragonForce,WDG_Bug,61590,468,False,2023-10-31T14:16:02.299302Z,1,0,0.6129,['none'],['ExpertPlus'],2023-11-01
-48,36c6c,Halloween Night!,hololive IDOL PROJECT,Slayx,4284422,226,False,2023-10-31T14:12:12.139688Z,15,1,0.8281,['balanced'],['ExpertPlus'],2023-11-01
-49,36ca9,Be Crazy For Me,EIKO Starring 96neko,Porunto_eastwood,4319011,288,False,2023-10-31T14:11:47.982594Z,15,0,0.8704,"['balanced', 'dance-style', 'anime', 'j-pop']",['ExpertPlus'],2023-11-01
+41,36cc2,Don't be a coward,Staswalle,minerdiscovery,164421,114,False,2023-11-01T01:57:00.149554Z,0,1,0.3871,['none'],['Easy'],2023-11-01
+42,36cbe,Escape from the City - Qumu Remix,Qumu,4orizon,4332614,133,False,2023-11-01T00:19:38.718807Z,14,0,0.8654,"['dance-style', 'video-game-soundtrack']","['Hard', 'Expert', 'ExpertPlus']",2023-11-01
+43,36cbd,PANDORAPALACE [200TBPSYBOMB] AshZRemix,Ash_Z,Basef134,148647,213,False,2023-11-01T00:05:40.000726Z,0,0,0.5,"['tech', 'balanced', 'video-game-soundtrack', 'hardcore']",['ExpertPlus'],2023-11-01
+44,36cbb,(execute.),Ardolf,Phoenix,4284947,140,False,2023-10-31T21:45:05.442436Z,4,0,0.75,"['balanced', 'electronic', 'hardcore']",['ExpertPlus'],2023-11-01
+45,36a23,Excited About Burger,Vylet Pony,Phoenix,4284947,62,False,2023-10-31T21:45:00.364629Z,12,0,0.8535,"['dance-style', 'comedy-meme']","['Expert', 'ExpertPlus']",2023-11-01
+46,36cba,ハニィ・レディ？,Suzuha Yumi,Suiba,166676,304,False,2023-10-31T21:34:03.017923Z,8,2,0.7031,['tech'],"['Hard', 'Expert', 'ExpertPlus']",2023-11-01
+47,36cb9,BREAKCORE MIXER 50 BPM,?,BrittieBeast,84645,6,False,2023-10-31T20:17:15.350687Z,0,1,0.3871,"['challenge', 'tech', 'comedy-meme', 'electronic']",['ExpertPlus'],2023-11-01
+48,36cb8,help_urself,Ezekiel,Tsunami_Pro,132278,150,False,2023-10-31T20:15:54.714329Z,0,0,0.5,['none'],['ExpertPlus'],2023-11-01
+49,36cb6,wish u were dead,KYURO3,ForsenCDPogU,4284542,240,False,2023-10-31T19:47:40.986639Z,3,0,0.7195,"['speed', 'speedcore']",['ExpertPlus'],2023-11-01
