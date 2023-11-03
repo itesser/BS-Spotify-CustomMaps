@@ -19,7 +19,7 @@ good_songs = df["match_conclusion"].value_counts()
 valid_songs = pd.DataFrame(good_songs).reset_index()
 st.plotly_chart(px.pie(valid_songs, values="count", names="match_conclusion"))
 
-st.subheader("Let's look at song release date vs length:")
+st.subheader("Let's look at song release date vs map upvotes:")
 st.write("Hover points to see song title/artist")
 st.text("Only showing songs with presumed Spotify matches")
 fig = px.scatter(
