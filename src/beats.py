@@ -48,7 +48,7 @@ class Beats:
             song = {}
             song["bs_map_id"] = bs_map_list[i]["id"]
             song["title"] = bs_map_list[i]["metadata"]["songName"]
-            if len(bs_map_list[i]["metadata"]["songAuthorName"]) < 1:
+            if len(bs_map_list[i]["metadata"]["songAuthorName"]) > 1:
                 song["artist"] = bs_map_list[i]["metadata"]["songAuthorName"]
             else:
                 song["artist"] = "__No Artist Listed"
