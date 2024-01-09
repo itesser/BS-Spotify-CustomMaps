@@ -5,7 +5,7 @@ from pathlib import Path
 from random import randint
 from datetime import date
 
-folder_dir = f"{Path(__file__).parents[0]}\\data\\"
+folder_dir = f"{Path(__file__).parents[0]}/data/"
 
 
 class Beats:
