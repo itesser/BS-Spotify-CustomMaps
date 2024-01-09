@@ -16,6 +16,7 @@ class SpotPull(Beats):
         self.sp = self.spotify_connection()
         self.bs_data = pd.read_csv(f"{folder_dir}beatsaver_songs.csv")
         self.get_sp_data()
+        print("SP data got")
         self.cleanup()
 
     def spotify_connection(self):
@@ -83,6 +84,7 @@ class SpotPull(Beats):
         for i in range(len(self.bs_data)):
             #        for i in range(10):
             title = self.bs_data["title"].iloc[i]  # these lines used for spotify search
+            print(title)
             artist = self.bs_data["artist"].iloc[i]
             bs_url = "https://beatsaver.com/maps/"
             spo_url = "http://open.spotify.com/track/"
