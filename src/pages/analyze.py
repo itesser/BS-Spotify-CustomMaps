@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 
-folder_dir = f"{Path(__file__).parents[1]}\\data\\"
+folder_dir = f"{Path(__file__).parents[1]}/data/"
 
 df = pd.read_csv(f"{folder_dir}clean_songs.csv")
 
