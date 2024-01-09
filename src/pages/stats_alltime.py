@@ -133,142 +133,140 @@ elif match_choice == "Unmatched":
 else:
     match_var = df
 
-try:
-    # Tof of the screen always shows a scatterplot
-    # Details: song date(x) vs map date (y) with score as size and difficulties as color
+
+# Tof of the screen always shows a scatterplot
+# Details: song date(x) vs map date (y) with score as size and difficulties as color
+fig = px.scatter(
+    match_var,
+    x="album_released",
+    y="upload_date",
+    hover_data=["title", "artist"],
+    color="difficulties",
+    size="score",
+    height=500,
+)
+fig.update_layout(legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01))
+st.plotly_chart(fig, use_container_width=True, theme=None)
+
+# dropdown has suggested graphs plus "pick my own"
+graph_options = [
+    "Pie - Matched/Unmatched",
+    "Histogram - Upload Date",
+    "Histogram - Danceability",
+    "Scatter - Duration vs Album Release",
+    "Scatter - Total Votes vs Spotify Popularity",
+    "Scatter - Score vs Spotify Popularity",
+    "------",
+    "DIY - Histogram",
+    "DIY - Scatterplot",
+]
+
+next_graph = st.selectbox("What would you like to see next?", options=graph_options)
+
+if next_graph == "Histogram - Upload Date":
+    st.plotly_chart(px.histogram(match_var, x="upload_date"))
+
+elif next_graph == "Histogram - Danceability":
+    st.plotly_chart(px.histogram(match_var, x="sp_danceability"))
+
+elif next_graph == "Scatter - Duration vs Album Release":
     fig = px.scatter(
         match_var,
         x="album_released",
-        y="upload_date",
+        y="duration_seconds",
         hover_data=["title", "artist"],
-        color="difficulties",
         size="score",
-        height=500,
+        height=550,
     )
     fig.update_layout(legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01))
-    st.plotly_chart(fig, use_container_width=True, theme=None)
+    st.plotly_chart(fig, theme=None, use_container_width=True)
 
-    # dropdown has suggested graphs plus "pick my own"
-    graph_options = [
-        "Pie - Matched/Unmatched",
-        "Histogram - Upload Date",
-        "Histogram - Danceability",
-        "Scatter - Duration vs Album Release",
-        "Scatter - Total Votes vs Spotify Popularity",
-        "Scatter - Score vs Spotify Popularity",
-        "------",
-        "DIY - Histogram",
-        "DIY - Scatterplot",
-    ]
+elif next_graph == "Scatter - Total Votes vs Spotify Popularity":
+    fig = px.scatter(
+        match_var,
+        x="total_votes",
+        y="sp_popularity",
+        hover_data=["title", "artist"],
+        size="score",
+        height=550,
+    )
+    fig.update_layout(legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01))
+    st.plotly_chart(fig, theme=None, use_container_width=True)
 
-    next_graph = st.selectbox("What would you like to see next?", options=graph_options)
+elif next_graph == "Scatter - Score vs Spotify Popularity":
+    fig = px.scatter(
+        match_var,
+        x="score",
+        y="sp_popularity",
+        hover_data=["title", "artist"],
+        size="total_votes",
+        height=550,
+    )
+    fig.update_layout(legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01))
+    st.plotly_chart(fig, theme=None, use_container_width=True)
 
-    if next_graph == "Histogram - Upload Date":
-        st.plotly_chart(px.histogram(match_var, x="upload_date"))
+elif next_graph == "Pie - Matched/Unmatched":
+    good_songs = df["match_conclusion"].value_counts()
+    valid_songs = pd.DataFrame(good_songs).reset_index()
+    st.plotly_chart(px.pie(valid_songs, values="count", names="match_conclusion"))
 
-    elif next_graph == "Histogram - Danceability":
-        st.plotly_chart(px.histogram(match_var, x="sp_danceability"))
+elif next_graph == "DIY - Histogram":
+    answer_x = st.selectbox(
+        "Select a column to visualize distribution for:", options=hist_vars
+    )
+    st.plotly_chart(px.histogram(match_var, x=answer_x))
 
-    elif next_graph == "Scatter - Duration vs Album Release":
-        fig = px.scatter(
-            match_var,
-            x="album_released",
-            y="duration_seconds",
-            hover_data=["title", "artist"],
-            size="score",
-            height=550,
-        )
-        fig.update_layout(legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01))
-        st.plotly_chart(fig, theme=None, use_container_width=True)
-
-    elif next_graph == "Scatter - Total Votes vs Spotify Popularity":
-        fig = px.scatter(
-            match_var,
-            x="total_votes",
-            y="sp_popularity",
-            hover_data=["title", "artist"],
-            size="score",
-            height=550,
-        )
-        fig.update_layout(legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01))
-        st.plotly_chart(fig, theme=None, use_container_width=True)
-
-    elif next_graph == "Scatter - Score vs Spotify Popularity":
-        fig = px.scatter(
-            match_var,
-            x="score",
-            y="sp_popularity",
-            hover_data=["title", "artist"],
-            size="total_votes",
-            height=550,
-        )
-        fig.update_layout(legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01))
-        st.plotly_chart(fig, theme=None, use_container_width=True)
-
-    elif next_graph == "Pie - Matched/Unmatched":
-        good_songs = df["match_conclusion"].value_counts()
-        valid_songs = pd.DataFrame(good_songs).reset_index()
-        st.plotly_chart(px.pie(valid_songs, values="count", names="match_conclusion"))
-
-    elif next_graph == "DIY - Histogram":
-        answer_x = st.selectbox(
-            "Select a column to visualize distribution for:", options=hist_vars
-        )
-        st.plotly_chart(px.histogram(match_var, x=answer_x))
-
-    elif next_graph == "DIY - Scatterplot":
-        scatter_x = st.selectbox("X Axis Variable", scatter_vars_x)
-        scatter_y = st.selectbox("Y Axis Variable", scatter_vars_y)
-        if st.button("See the Graph!"):
-            if scatter_x == "top_30_artists":
-                top_artists = list(
-                    match_var["sp_artist"]
-                    .value_counts(ascending=False)
-                    .head(30)
-                    .reset_index()["sp_artist"]
-                )
-                top_artist_df = match_var[match_var["sp_artist"].isin(top_artists)]
-                fig = px.scatter(
-                    top_artist_df,
-                    x="artist",
-                    y=scatter_y,
-                    hover_data=["title", "artist"],
-                    height=550,
-                )
-                fig.update_layout(
-                    legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01)
-                )
-                st.plotly_chart(fig, theme=None, use_container_width=True)
-            elif scatter_x == "top_30_mappers":
-                top_mappers = list(
-                    match_var["mapper_name"]
-                    .value_counts(ascending=False)
-                    .head(30)
-                    .reset_index()["mapper_name"]
-                )
-                top_mapper_df = match_var[match_var["mapper_name"].isin(top_mappers)]
-                fig = px.scatter(
-                    top_mapper_df,
-                    x="mapper_name",
-                    y=scatter_y,
-                    hover_data=["title", "artist"],
-                    height=550,
-                )
-                fig.update_layout(
-                    legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01)
-                )
-                st.plotly_chart(fig, theme=None, use_container_width=True)
-            else:
-                fig = px.scatter(
-                    match_var,
-                    x=scatter_x,
-                    y=scatter_y,
-                    hover_data=["title", "artist"],
-                    height=550,
-                )
-                fig.update_layout(
-                    legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01)
-                )
-                st.plotly_chart(fig, theme=None, use_container_width=True)
-except:
-    st.write("We're having trouble with the data! Sid is aware and working on a fix.")
+elif next_graph == "DIY - Scatterplot":
+    scatter_x = st.selectbox("X Axis Variable", scatter_vars_x)
+    scatter_y = st.selectbox("Y Axis Variable", scatter_vars_y)
+    if st.button("See the Graph!"):
+        if scatter_x == "top_30_artists":
+            top_artists = list(
+                match_var["sp_artist"]
+                .value_counts(ascending=False)
+                .head(30)
+                .reset_index()["sp_artist"]
+            )
+            top_artist_df = match_var[match_var["sp_artist"].isin(top_artists)]
+            fig = px.scatter(
+                top_artist_df,
+                x="artist",
+                y=scatter_y,
+                hover_data=["title", "artist"],
+                height=550,
+            )
+            fig.update_layout(
+                legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01)
+            )
+            st.plotly_chart(fig, theme=None, use_container_width=True)
+        elif scatter_x == "top_30_mappers":
+            top_mappers = list(
+                match_var["mapper_name"]
+                .value_counts(ascending=False)
+                .head(30)
+                .reset_index()["mapper_name"]
+            )
+            top_mapper_df = match_var[match_var["mapper_name"].isin(top_mappers)]
+            fig = px.scatter(
+                top_mapper_df,
+                x="mapper_name",
+                y=scatter_y,
+                hover_data=["title", "artist"],
+                height=550,
+            )
+            fig.update_layout(
+                legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01)
+            )
+            st.plotly_chart(fig, theme=None, use_container_width=True)
+        else:
+            fig = px.scatter(
+                match_var,
+                x=scatter_x,
+                y=scatter_y,
+                hover_data=["title", "artist"],
+                height=550,
+            )
+            fig.update_layout(
+                legend=dict(yanchor="bottom", y=3.99, xanchor="left", x=0.01)
+            )
+            st.plotly_chart(fig, theme=None, use_container_width=True)
