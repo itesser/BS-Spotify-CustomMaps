@@ -9,10 +9,10 @@ folder_dir = f"{Path(__file__).parents[0]}\\data\\"
 
 
 class SpotPull(Beats):
-    def __init__(self, date="today", local_data=False):
+    def __init__(self, date="today", time_h=-1, time_m=-1, local_data=False):
         # use the argument local_data = True to skip querying BeatSaver
         if not local_data:
-            Beats.__init__(self, date)
+            Beats.__init__(self, date, time_h, time_m)
         self.sp = self.spotify_connection()
         self.bs_data = pd.read_csv(f"{folder_dir}beatsaver_songs.csv")
         self.get_sp_data()
@@ -84,53 +84,122 @@ class SpotPull(Beats):
             #        for i in range(10):
             title = self.bs_data["title"].iloc[i]  # these lines used for spotify search
             artist = self.bs_data["artist"].iloc[i]
-            try:  # If the initial Spotify Query has no results, this codeblock is skipped.
+            bs_url = "https://beatsaver.com/maps/"
+            spo_url = "http://open.spotify.com/track/"
+            try:  # Looking for spotify ID and linking track on both BS and Spotify.
                 spot_result = get_spot_data(artist, title)
-                track_dict = all_spot_track_info(spot_result)
                 self.bs_data.loc[
                     self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "spotify_id"
                 ] = spot_result
                 self.bs_data.loc[
+                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "bs_map_link"
+                ] = f"{bs_url}{self.bs_data['bs_map_id'].iloc[i]}"
+                self.bs_data.loc[
+                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "spotify_link"
+                ] = f"{spo_url}{spot_result}"
+
+            except:
+                self.bs_data.loc[
+                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "spotify_id"
+                ] = "No artist/title results on Spotify"
+                self.bs_data.loc[
+                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "bs_map_link"
+                ] = f"{bs_url}{self.bs_data['bs_map_id'].iloc[i]}"
+                self.bs_data.loc[
+                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "spotify_link"
+                ] = "No Link Available"
+
+            if len(spot_result) < 30:  # Error result is len 34
+                try:  # Pulling all track specific data:
+                    track_dict = all_spot_track_info(spot_result)
+                    self.bs_data.loc[
+                        self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "sp_title"
+                    ] = track_dict["name"]
+                    self.bs_data.loc[
+                        self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "sp_artist"
+                    ] = track_dict["artists"][0]["name"]
+                    self.bs_data.loc[
+                        self.bs_data.bs_map_id == self.bs_data.bs_map_id[i],
+                        "sp_artist_id",
+                    ] = track_dict["artists"][0]["id"]
+                    self.bs_data.loc[
+                        self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "album"
+                    ] = track_dict["album"]["name"]
+                    self.bs_data.loc[
+                        self.bs_data.bs_map_id == self.bs_data.bs_map_id[i],
+                        "album_released",
+                    ] = track_dict["album"]["release_date"]
+                    self.bs_data.loc[
+                        self.bs_data.bs_map_id == self.bs_data.bs_map_id[i],
+                        "album_type",
+                    ] = track_dict["album"]["type"]
+                    self.bs_data.loc[
+                        self.bs_data.bs_map_id == self.bs_data.bs_map_id[i],
+                        "sp_duration",
+                    ] = track_dict["duration_ms"]
+                except:
+                    self.bs_data.loc[
+                        self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "sp_title"
+                    ] = "Error finding song on Spotify"
+                    self.bs_data.loc[
+                        self.bs_data.bs_map_id == self.bs_data.bs_map_id[i],
+                        [
+                            "sp_artist",
+                            "sp_artist_id",
+                            "album",
+                            "album_released",
+                            "album_type",
+                        ],
+                    ] = "NA - Song ID Error"
+                    self.bs_data.loc[
+                        self.bs_data.bs_map_id == self.bs_data.bs_map_id[i],
+                        "sp_duration",
+                    ] = 0.0
+            else:
+                self.bs_data.loc[
                     self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "sp_title"
-                ] = track_dict["name"]
+                ] = "Error finding song on Spotify"
                 self.bs_data.loc[
-                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "sp_artist"
-                ] = track_dict["artists"][0]["name"]
+                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i],
+                    [
+                        "sp_artist",
+                        "sp_artist_id",
+                        "album",
+                        "album_released",
+                        "album_type",
+                    ],
+                ] = "NA - Song ID Error"
                 self.bs_data.loc[
-                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "sp_artist_id"
-                ] = track_dict["artists"][0]["id"]
+                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "sp_duration"
+                ] = 0.0
+
+            try:
                 artist_info = get_artist_info(track_dict["artists"][0]["id"])
                 self.bs_data.loc[
                     self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "artist_genres"
                 ] = str(artist_info["genres"])
+            except:
                 self.bs_data.loc[
-                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "album"
-                ] = track_dict["album"]["name"]
-                self.bs_data.loc[
-                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i],
-                    "album_released",
-                ] = track_dict["album"]["release_date"]
-                self.bs_data.loc[
-                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "album_type"
-                ] = track_dict["album"]["type"]
-                self.bs_data.loc[
-                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "sp_duration"
-                ] = track_dict["duration_ms"]
+                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "artist_genres"
+                ] = "[]"
+
+            # Defining a list before the last try/except block
+            audio_vars = [
+                "danceability",
+                "energy",
+                "key",
+                "loudness",
+                "mode",
+                "speechiness",
+                "acousticness",
+                "instrumentalness",
+                "liveness",
+                "valence",
+                "tempo",
+                "time_signature",
+            ]
+            try:
                 track_audio = get_spot_audio(spot_result)
-                audio_vars = [
-                    "danceability",
-                    "energy",
-                    "key",
-                    "loudness",
-                    "mode",
-                    "speechiness",
-                    "acousticness",
-                    "instrumentalness",
-                    "liveness",
-                    "valence",
-                    "tempo",
-                    "time_signature",
-                ]
                 for x in audio_vars:
                     self.bs_data.loc[
                         self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], f"sp_{x}"
@@ -138,50 +207,50 @@ class SpotPull(Beats):
                 self.bs_data.loc[
                     self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "sp_popularity"
                 ] = track_dict["popularity"]
-                bs_url = "https://beatsaver.com/maps/"
-                spo_url = "http://open.spotify.com/track/"
+            except:
+                for x in audio_vars:
+                    self.bs_data.loc[
+                        self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], f"sp_{x}"
+                    ] = 0.0
                 self.bs_data.loc[
-                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "bs_map_link"
-                ] = f"{bs_url}{self.bs_data['bs_map_id'].iloc[i]}"
-                self.bs_data.loc[
-                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "spotify_link"
-                ] = f"{spo_url}{spot_result}"
-                self.bs_data.loc[
-                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "artist_match"
-                ] = (
+                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "sp_popularity"
+                ] = 0.0
+
+            # Do the artists on BS and SP match?
+            self.bs_data.loc[
+                self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "artist_match"
+            ] = (
+                (
+                    self.bs_data["artist"].iloc[i].lower().strip()
+                    == self.bs_data["sp_artist"].iloc[i].lower().strip()
+                )
+                or (
                     (
                         self.bs_data["artist"].iloc[i].lower().strip()
-                        == self.bs_data["sp_artist"].iloc[i].lower().strip()
+                        in self.bs_data["sp_artist"].iloc[i].lower().strip()
                     )
-                    or (
-                        (
-                            self.bs_data["artist"].iloc[i].lower().strip()
-                            in self.bs_data["sp_artist"].iloc[i].lower().strip()
-                        )
-                    )
-                    or (self.bs_data["sp_artist"].iloc[i].lower().strip())
-                    in (self.bs_data["artist"].iloc[i].lower().strip())
                 )
-                self.bs_data.loc[
-                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "title_match"
-                ] = (
+                or (self.bs_data["sp_artist"].iloc[i].lower().strip())
+                in (self.bs_data["artist"].iloc[i].lower().strip())
+            )
+
+            # Do the titles on BS and SP match?
+            self.bs_data.loc[
+                self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "title_match"
+            ] = (
+                (
+                    self.bs_data["title"].iloc[i].lower().strip()
+                    == self.bs_data["sp_title"].iloc[i].lower().strip()
+                )
+                or (
                     (
                         self.bs_data["title"].iloc[i].lower().strip()
-                        == self.bs_data["sp_title"].iloc[i].lower().strip()
+                        in self.bs_data["sp_title"].iloc[i].lower().strip()
                     )
-                    or (
-                        (
-                            self.bs_data["title"].iloc[i].lower().strip()
-                            in self.bs_data["sp_title"].iloc[i].lower().strip()
-                        )
-                    )
-                    or (self.bs_data["sp_title"].iloc[i].lower().strip())
-                    in (self.bs_data["title"].iloc[i].lower().strip())
                 )
-            except:
-                self.bs_data.loc[
-                    self.bs_data.bs_map_id == self.bs_data.bs_map_id[i], "spotify_id"
-                ] = "No artist/title results on Spotify"
+                or (self.bs_data["sp_title"].iloc[i].lower().strip())
+                in (self.bs_data["title"].iloc[i].lower().strip())
+            )
 
     def cleanup(self):
         # genres had to be transformed into a string, changing it back into a list

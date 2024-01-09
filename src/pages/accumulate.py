@@ -16,11 +16,15 @@ date = st.date_input(
     min_value=datetime.date(2018, 5, 9),
     max_value=datetime.date.today(),
 )
+st.write("Pick a time to pinpoint the search, or select -1 to query a random time")
+hour = st.slider("Hour", min_value=-1, max_value=23)
+minute = st.slider("Minute", min_value=-1, max_value=59)
 date = str(date)
 if st.button("Get Those Songs"):
     st.write("Please be patient, results may take 60 seconds to appear")
     try:
-        s = SpotPull(date)
+        s = SpotPull(date, hour, minute)
+        print(date, minute, hour)
         s.lookit_me = s.bs_data
         st.caption(
             """Buttons in the upper-right corner of the table can be used to:
