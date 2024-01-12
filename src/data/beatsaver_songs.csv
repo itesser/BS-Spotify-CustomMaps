@@ -16,16 +16,16 @@
 14,38d5b,unco2,Naotaro Moriyama,chikaini,4344507,70,False,2024-01-12T15:00:00.155625Z,5,0,0.7732,['none'],"['Expert', 'Expert']",2024-01-12
 15,38d5c,tabacco,KORESAWA,chikaini,4344507,139,False,2024-01-12T14:59:00.161031Z,3,0,0.7195,"['accuracy', 'challenge', 'j-pop']",['Expert'],2024-01-12
 16,38d5f,ただ選択があった/I just had a choice,フロクロ(Frog96),moru3966,175624,129,False,2024-01-12T14:52:27.758169Z,0,0,0.5,"['balanced', 'vocaloid']",['Hard'],2024-01-12
-17,38d5d,Beating Heart Baby,Head Automatica,Joetastic,58338,205,False,2024-01-12T14:23:27.156756Z,2,0,0.6771,"['balanced', 'alternative', 'rock']",['Expert'],2024-01-12
+17,38d5d,Beating Heart Baby,Head Automatica,Joetastic,58338,205,False,2024-01-12T14:23:27.156756Z,3,0,0.7195,"['balanced', 'alternative', 'rock']",['Expert'],2024-01-12
 18,38d5a,she'll never love you like i love you,haunt,ajmonkey21,4352688,95,False,2024-01-12T18:57:11.599027Z,0,0,0.5,['challenge'],['ExpertPlus'],2024-01-12
 19,38d58,Time After Time,"BoA, WENDY, NINGNING",OTG,169207,182,False,2024-01-12T11:57:47.357333Z,1,0,0.6129,['none'],['Expert'],2024-01-12
 20,38d57,MIGRAINE,__No Artist Listed,thebaconator221,183392,154,False,2024-01-12T11:48:29.095849Z,0,1,0.3871,"['punk', 'rock', 'balanced']",['Hard'],2024-01-12
 21,38cd4,Techno Syndrome 2021,Benjamin Wallfisch,dereknalox123,4288823,188,False,2024-01-12T11:45:32.774639Z,0,1,0.3871,"['tech', 'electronic']",['ExpertPlus'],2024-01-12
 22,38d56,she'll never love you like i love you,haunt,Kacki,101324,95,False,2024-01-12T11:40:33.059409Z,0,0,0.5,"['accuracy', 'kids-family', 'balanced', 'folk-acoustic']",['ExpertPlus'],2024-01-12
-23,38d54,Bubbly,Good Kid,RFColaf,4335206,189,False,2024-01-12T11:20:45.782032Z,9,0,0.8294,"['accuracy', 'balanced', 'alternative', 'rock']","['Expert', 'ExpertPlus']",2024-01-12
+23,38d54,Bubbly,Good Kid,RFColaf,4335206,189,False,2024-01-12T11:20:45.782032Z,11,0,0.8465,"['accuracy', 'balanced', 'alternative', 'rock']","['Expert', 'ExpertPlus']",2024-01-12
 24,38d53,Brozone's Back,Brzone lol,maeryuu1,182683,83,False,2024-01-12T11:02:57.580174Z,0,1,0.3871,"['challenge', 'dance-style']",['Hard'],2024-01-12
 25,38d52,Umberella,The baseballs,Rhysholyoake,183007,190,False,2024-01-12T11:02:38.275941Z,0,0,0.5,"['dance-style', 'fitness', 'drum-and-bass', 'funk-disco']",['Hard'],2024-01-12
-26,38d51,Farewell,Shadow of Intent,BrayTree,183569,296,False,2024-01-12T10:49:16.004464Z,0,0,0.5,"['accuracy', 'tech', 'rock', 'j-rock']",['ExpertPlus'],2024-01-12
+26,38d51,Farewell,Shadow of Intent,BrayTree,183569,296,False,2024-01-12T10:49:16.004464Z,0,1,0.3871,"['accuracy', 'tech', 'rock', 'j-rock']",['ExpertPlus'],2024-01-12
 27,38d3b,Wildfire,Against The Current,Jolec,179423,166,False,2024-01-12T09:36:22.178188Z,2,0,0.6771,"['balanced', 'dance-style', 'pop', 'rock']",['Hard'],2024-01-12
 28,38d35,Rubber Human,Mili,nsenuesu,288,144,False,2024-01-12T09:28:07.219014Z,1,0,0.6129,['j-pop'],"['Hard', 'Expert', 'ExpertPlus']",2024-01-12
 29,38d2e,Shukusei! Loli-Kami Requiem,Shigure Ui,komeijisan051,4285211,262,False,2024-01-12T08:42:15.327087Z,13,0,0.8598,"['balanced', 'j-pop', 'hardcore']",['ExpertPlus'],2024-01-12
@@ -45,7 +45,7 @@
 43,38d08,elephantGreenScreen,elephant,_whiteleaf,182329,2,False,2024-01-11T21:16:46.510503Z,0,1,0.3871,['comedy-meme'],['ExpertPlus'],2024-01-12
 44,38d00,Fahrerflucht,"Trailerpark, Alligatoah",Bohnengulaschhandelsstandbesitzer,182536,218,False,2024-01-11T20:50:33.784151Z,0,0,0.5,['none'],['ExpertPlus'],2024-01-12
 45,38cfe,666,Roughsketch,IvyVR,181503,196,False,2024-01-11T20:45:58.310534Z,0,0,0.5,"['challenge', 'accuracy', 'comedy-meme', 'dance']",['ExpertPlus'],2024-01-12
-46,38cfc,Don't You Worry Child,Swedish House Mafia,ForsenCDPogU,4284542,216,False,2024-01-12T02:28:59.878770Z,5,0,0.7732,"['accuracy', 'electronic']",['Normal'],2024-01-12
+46,38cfc,Don't You Worry Child,Swedish House Mafia,ForsenCDPogU,4284542,216,False,2024-01-12T02:28:59.878770Z,6,0,0.7915,"['accuracy', 'electronic']",['Normal'],2024-01-12
 47,38cf9,F That S Up,DRS X MBK FT MC Robs,Qwan,124362,175,False,2024-01-12T01:42:40.384315Z,0,0,0.5,"['challenge', 'tech', 'hardcore', 'electronic']","['Expert', 'ExpertPlus']",2024-01-12
 48,38cf8,ZenitsuVsKaigaku,SoulRap,twitch_agod_boss,175786,237,False,2024-01-11T18:02:15.510961Z,0,0,0.5,"['balanced', 'accuracy', 'vocaloid', 'anime']","['Easy', 'Hard']",2024-01-12
 49,38cf5,cold weather,glass beach,decimate,177886,39,False,2024-01-11T17:47:53.412118Z,6,2,0.6594,"['dance-style', 'fitness', 'funk-disco']",['ExpertPlus'],2024-01-12
