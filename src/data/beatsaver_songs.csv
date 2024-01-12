@@ -1,51 +1,51 @@
 ,bs_map_id,title,artist,mapper_name,mapper_id,duration_seconds,auto_mapped,upload_date,upvotes,downvotes,score,tags,difficulties,last_fetched
-0,367ba,Gunners in the Rain,__No Artist Listed,x-mens,111235,228,False,2023-10-16T21:10:04.837428Z,22,1,0.8638,"['dance-style', 'tech']","['Expert', 'ExpertPlus', 'ExpertPlus']",2024-01-08
-1,367b9,Courage,__No Artist Listed,dereknalox123,4288823,256,False,2023-10-17T17:40:58.044411Z,38,1,0.9038,"['dance-style', 'speed', 'electronic']","['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus']",2024-01-08
-2,367b8,F.N,__No Artist Listed,gagecorduck,4286472,227,False,2023-10-16T20:12:28.334455Z,0,0,0.5,['none'],['ExpertPlus'],2024-01-08
-3,367b7,sigma dance,__No Artist Listed,Rs_Disgarding2,167706,10,False,2023-10-16T20:40:20.267148Z,0,0,0.5,['challenge'],"['Hard', 'Expert', 'ExpertPlus']",2024-01-08
-4,367ab,Homesick,__No Artist Listed,faded99,4286575,160,False,2023-10-24T19:10:02.464690Z,19,0,0.8866,"['balanced', 'alternative', 'indie']",['Expert'],2024-01-08
-5,367b5,Song Name,__No Artist Listed,eLBee,162657,232,False,2023-10-16T18:59:35.921854Z,1,0,0.6129,['none'],"['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus']",2024-01-08
-6,367b3,"Baptised, Bastardised, Sodomised",__No Artist Listed,Crusader.Pepe,122295,266,False,2023-10-16T18:03:53.001316Z,2,0,0.6771,['none'],['ExpertPlus'],2024-01-08
-7,367ae,Hot Mess,__No Artist Listed,Kassi,4293090,193,False,2023-10-16T17:39:57.147226Z,50,1,0.9196,"['tech', 'accuracy', 'alternative', 'rock']","['Normal', 'Hard', 'Expert', 'ExpertPlus']",2024-01-08
-8,367ad,Booty V7,__No Artist Listed,MXW_Skulls,159767,23,False,2023-10-16T17:39:04.221627Z,0,0,0.5,['none'],"['Hard', 'Expert', 'ExpertPlus']",2024-01-08
-9,367ac,ODETARI - narcissistic personality disorder (sped up),__No Artist Listed,Rs_Disgarding2,167706,101,False,2023-10-16T17:38:51.032387Z,0,4,0.25,"['hardcore', 'challenge', 'fitness']",['ExpertPlus'],2024-01-08
-10,367a5,The Fall,__No Artist Listed,HeroicBanjo3809,134823,185,False,2023-10-16T16:35:32.383479Z,10,0,0.8386,"['balanced', 'indie', 'rock']",['ExpertPlus'],2024-01-08
-11,367a4,I'm A Believer,__No Artist Listed,Joetastic,58338,188,False,2023-10-16T15:31:53.056235Z,157,3,0.9512,"['dance-style', 'pop']","['Hard', 'Expert', 'ExpertPlus']",2024-01-08
-12,367a3,✿LASAGA✿,__No Artist Listed,Voytech,111883,142,False,2023-10-16T15:40:31.643262Z,3,0,0.7195,"['speed', 'dance-style', 'electronic']",['ExpertPlus'],2024-01-08
-13,367a1,21st Century,__No Artist Listed,Arisama,144110,307,False,2023-10-16T14:28:31.127510Z,0,0,0.5,"['challenge', 'speed']",['ExpertPlus'],2024-01-08
-14,3679e,Soulless 5++,__No Artist Listed,mr7sn,160796,388,False,2023-10-18T18:39:47.947727Z,0,0,0.5,"['challenge', 'speed', 'speedcore', 'nightcore']",['ExpertPlus'],2024-01-08
-15,3679d,俺らEDMフェスさ行ぐだ,__No Artist Listed,841_yutsuki,2107,169,False,2023-10-16T13:46:22.635811Z,77,2,0.9287,['none'],['ExpertPlus'],2024-01-08
-16,3679c,sidelines,__No Artist Listed,Parapass,4284204,125,False,2023-10-16T13:44:22.682404Z,1,0,0.6129,"['tech', 'dance-style', 'pop', 'electronic']",['ExpertPlus'],2024-01-08
-17,3679a,The Errand Boy YT,__No Artist Listed,.Tershi,161128,149,False,2023-10-16T13:21:25.771455Z,5,1,0.6943,"['tv-movie-soundtrack', 'jazz']",['Hard'],2024-01-08
-18,36799,riddle,__No Artist Listed,Melonz,4286512,110,False,2023-10-16T12:57:47.629689Z,6,0,0.7915,"['accuracy', 'hip-hop-rap']",['ExpertPlus'],2024-01-08
-19,36798,Insanity,__No Artist Listed,ObaMart,4286612,195,False,2023-10-16T12:38:56.947206Z,9,3,0.6768,['none'],['ExpertPlus'],2024-01-08
-20,36796,Nagisa no revenge myaku ari!? Vaca-tion,__No Artist Listed,minasicl,139352,114,False,2023-10-16T09:18:24.124602Z,12,1,0.8044,['challenge'],"['Expert', 'ExpertPlus']",2024-01-08
-21,36795,比翼の羽根,__No Artist Listed,ken-UMA,164213,279,False,2023-10-17T11:34:05.237375Z,14,1,0.821,"['accuracy', 'tech']",['Expert'],2024-01-08
-22,36794,beatleader golf challenge,__No Artist Listed,Lito,101549,18,False,2023-10-16T08:50:51.269118Z,1,3,0.375,"['accuracy', 'challenge']",['ExpertPlus'],2024-01-08
-23,36793,Prestige And Vestige,__No Artist Listed,staryouh,4351873,119,False,2023-10-16T07:58:23.702940Z,4,2,0.5972,"['challenge', 'tech']",['ExpertPlus'],2024-01-08
-24,359ce,Dead Voxel,__No Artist Listed,Phoenix,4284947,297,False,2023-10-16T07:56:08.512296Z,80,1,0.9412,"['accuracy', 'ambient', 'video-game-soundtrack']",['Easy'],2024-01-08
-25,36792,Mistral Gagnant ,__No Artist Listed,Maotio,100683,187,False,2023-10-20T02:17:24.093619Z,1,0,0.6129,"['challenge', 'speed', 'electronic']",['ExpertPlus'],2024-01-08
-26,36791, XO Tour Llif3,__No Artist Listed,gagecorduck,4286472,186,False,2023-10-16T04:40:37.802549Z,0,2,0.3229,['none'],['ExpertPlus'],2024-01-08
-27,36790,Stumble Guys Drip,__No Artist Listed,mrpickler,4334477,50,False,2023-10-16T03:55:37.883040Z,1,1,0.5,"['challenge', 'speed']",['ExpertPlus'],2024-01-08
-28,3678d,BREADY STEADY GO,__No Artist Listed,Fzr,4280545,127,False,2023-10-16T02:12:12.668723Z,1,0,0.6129,['none'],['ExpertPlus'],2024-01-08
-29,36782,slt,__No Artist Listed,Monkeytime08_YT,4319925,125,False,2023-10-16T01:31:07.685790Z,3,0,0.7195,['anime'],['ExpertPlus'],2024-01-08
-30,36781,Booty V6,__No Artist Listed,MXW_Skulls,159767,23,False,2023-10-16T00:08:18.944329Z,0,1,0.3871,['none'],"['Expert', 'ExpertPlus']",2024-01-08
-31,36780,Rum diddly dum dum,__No Artist Listed,mrpickler,4334477,17,False,2023-10-15T23:34:52.819327Z,1,1,0.5,"['challenge', 'comedy-meme']",['ExpertPlus'],2024-01-08
-32,3677f,TT,__No Artist Listed,Lalahti,113814,213,False,2023-10-16T16:47:54.805539Z,73,2,0.926,['k-pop'],"['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus']",2024-01-08
-33,36710,Good Day,__No Artist Listed,WKD_Raven,4339574,171,False,2023-10-16T16:37:53.035853Z,42,0,0.9289,"['balanced', 'k-pop']",['ExpertPlus'],2024-01-08
-34,36779,Booty V5,__No Artist Listed,MXW_Skulls,159767,23,False,2023-10-15T21:55:50.860212Z,0,0,0.5,['none'],"['Hard', 'Expert', 'ExpertPlus']",2024-01-08
-35,36778,Mary - Alex g  (sped up),__No Artist Listed,Rs_Disgarding2,167706,151,False,2023-10-15T21:31:11.917891Z,0,1,0.3871,"['soul', 'video-game-soundtrack']",['ExpertPlus'],2024-01-08
-36,36777,÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷,__No Artist Listed,BigOlDumplin,4289651,213,False,2023-10-15T21:29:04.694779Z,4,2,0.5972,"['tech', 'speed', 'electronic', 'dubstep']","['Hard', 'ExpertPlus', 'ExpertPlus']",2024-01-08
-37,36774,Laur - Sheriruth (Laur Remix),,roadmanreginald,4285450,126,False,2023-10-15T21:26:55.615243Z,1,0,0.6129,['challenge'],['ExpertPlus'],2024-01-08
-38,36772,Mopemope,__No Artist Listed,waffl,4284843,112,False,2023-10-15T21:26:38.271512Z,0,2,0.3229,['challenge'],['ExpertPlus'],2024-01-08
-39,36775,help,,Explosivegaming30,4339870,45,False,2023-10-15T21:26:28.678653Z,1,1,0.5,['challenge'],"['Expert', 'ExpertPlus']",2024-01-08
-40,36773,Moonlight,__No Artist Listed,Radiate2710,125074,106,False,2023-10-15T21:25:39.668849Z,1,0,0.6129,['none'],['ExpertPlus'],2024-01-08
-41,3676c,Booty V4,__No Artist Listed,MXW_Skulls,159767,23,False,2023-10-15T20:20:47.543687Z,1,0,0.6129,['none'],['ExpertPlus'],2024-01-08
-42,3676b,Mary - Alex g  (sped up),__No Artist Listed,Rs_Disgarding2,167706,151,False,2023-10-15T20:18:25.296914Z,0,0,0.5,"['balanced', 'alternative', 'ambient']",['ExpertPlus'],2024-01-08
-43,3676a,Field of Hopes and Dreams,__No Artist Listed,nolanimations,4235156,288,False,2023-10-16T11:02:46.028060Z,49,3,0.887,['none'],['ExpertPlus'],2024-01-08
-44,36769,Stinky breath song,__No Artist Listed,MXW_Skulls,159767,15,False,2023-10-15T20:15:40.075849Z,0,0,0.5,['none'],['ExpertPlus'],2024-01-08
-45,36768,Booty V3,__No Artist Listed,MXW_Skulls,159767,23,False,2023-10-15T20:11:44.527397Z,0,0,0.5,['none'],['ExpertPlus'],2024-01-08
-46,36766,Hank steel the real queer cowboy!,__No Artist Listed,MXW_monkey,162022,45,False,2023-10-15T20:03:48.296301Z,1,2,0.4268,['none'],"['Hard', 'Expert', 'ExpertPlus']",2024-01-08
-47,36763,Ether Strike,__No Artist Listed,Supaconnor,4284734,142,False,2023-10-15T19:46:34.496577Z,2,3,0.4454,"['tech', 'balanced']",['ExpertPlus'],2024-01-08
-48,36765,Dashstar * (VIP),__No Artist Listed,denyah_,1834,142,False,2023-10-15T19:20:05.191535Z,14,3,0.7454,"['balanced', 'electronic', 'dubstep']",['ExpertPlus'],2024-01-08
-49,36764,Wired,__No Artist Listed,StrangeSparky,155576,257,False,2023-10-15T19:08:22.637573Z,3,0,0.7195,"['techno', 'dubstep', 'balanced']",['ExpertPlus'],2024-01-08
+0,38d8f,Overwhelmed,Royal & the Serpent,Lehnout,4325581,161,False,2024-01-12T21:10:30.338589Z,0,0,0.5,['none'],"['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus', 'Expert', 'ExpertPlus']",2024-01-12
+1,38d8a,ECHO (covered by Mafumafu feat. nqrse),Crusher-P,Comyute,4284848,235,False,2024-01-12T20:47:01.353631Z,0,0,0.5,['j-pop'],['ExpertPlus'],2024-01-12
+2,38d87,Flashbacks (Slowed),Craspore,Superkota5,152715,79,False,2024-01-12T20:25:44.586103Z,0,1,0.3871,"['challenge', 'tech']",['ExpertPlus'],2024-01-12
+3,38d83,lost,CRIM3S,Superkota5,152715,148,False,2024-01-12T20:05:34.009754Z,0,0,0.5,"['challenge', 'tech']",['ExpertPlus'],2024-01-12
+4,38d80,Wyłącz To Kurwa,Loffciamcore,BenjiSticks,119316,66,False,2024-01-12T19:31:51.314317Z,0,0,0.5,"['speed', 'metal']","['ExpertPlus', 'ExpertPlus']",2024-01-12
+5,38d7b,mijn superheld,gladde paling,Blenderman,152063,133,False,2024-01-12T18:04:22.454278Z,1,0,0.6129,"['speed', 'tech']","['Hard', 'Expert', 'ExpertPlus', 'Expert']",2024-01-12
+6,38d71,no enemies ahh song,__No Artist Listed,Potatoiscool,183635,36,False,2024-01-12T17:23:51.310743Z,4,2,0.5972,['none'],['Normal'],2024-01-12
+7,38d70,Not My Fault (with Megan Thee Stallion),"Reneé Rapp, Megan Thee Stallion",Bellus,145971,172,False,2024-01-12T17:21:16.000650Z,2,0,0.6771,"['balanced', 'dance-style', 'tv-movie-soundtrack', 'pop']","['Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus']",2024-01-12
+8,38d6a,Step Back!,1nonly,benj,4357050,153,False,2024-01-12T17:00:17.320583Z,0,0,0.5,['none'],"['Hard', 'Expert', 'ExpertPlus']",2024-01-12
+9,38d69,Hypnotic data,__No Artist Listed,hina_,183636,129,False,2024-01-12T16:57:21.259129Z,0,0,0.5,"['challenge', 'speed', 'video-game-soundtrack', 'kids-family']",['ExpertPlus'],2024-01-12
+10,38d65,Goodness Gracious,bbno$ & Yung Gravy (BABY GRAVY),Kassi,4293090,146,False,2024-01-12T16:19:08.126997Z,2,0,0.6771,"['tech', 'accuracy', 'hip-hop-rap', 'pop']","['Expert', 'ExpertPlus']",2024-01-12
+11,38d64,Spookie Short Song number 2,Me :::)(,hubert1622,164125,21,False,2024-01-12T15:38:32.225914Z,0,1,0.3871,['none'],['ExpertPlus'],2024-01-12
+12,38d63,heaven,gladde paling,Blenderman,152063,84,False,2024-01-12T15:32:40.333566Z,0,0,0.5,"['speed', 'tech']",['ExpertPlus'],2024-01-12
+13,38d60,足んない！,eiguft,misterlihao,4284977,188,False,2024-01-12T15:24:07.164477Z,5,0,0.7732,"['balanced', 'vocaloid']","['Hard', 'Expert', 'ExpertPlus', 'ExpertPlus']",2024-01-12
+14,38d5b,unco2,Naotaro Moriyama,chikaini,4344507,70,False,2024-01-12T15:00:00.155625Z,5,0,0.7732,['none'],"['Expert', 'Expert']",2024-01-12
+15,38d5c,tabacco,KORESAWA,chikaini,4344507,139,False,2024-01-12T14:59:00.161031Z,3,0,0.7195,"['accuracy', 'challenge', 'j-pop']",['Expert'],2024-01-12
+16,38d5f,ただ選択があった/I just had a choice,フロクロ(Frog96),moru3966,175624,129,False,2024-01-12T14:52:27.758169Z,0,0,0.5,"['balanced', 'vocaloid']",['Hard'],2024-01-12
+17,38d5d,Beating Heart Baby,Head Automatica,Joetastic,58338,205,False,2024-01-12T14:23:27.156756Z,2,0,0.6771,"['balanced', 'alternative', 'rock']",['Expert'],2024-01-12
+18,38d5a,she'll never love you like i love you,haunt,ajmonkey21,4352688,95,False,2024-01-12T18:57:11.599027Z,0,0,0.5,['challenge'],['ExpertPlus'],2024-01-12
+19,38d58,Time After Time,"BoA, WENDY, NINGNING",OTG,169207,182,False,2024-01-12T11:57:47.357333Z,1,0,0.6129,['none'],['Expert'],2024-01-12
+20,38d57,MIGRAINE,__No Artist Listed,thebaconator221,183392,154,False,2024-01-12T11:48:29.095849Z,0,1,0.3871,"['punk', 'rock', 'balanced']",['Hard'],2024-01-12
+21,38cd4,Techno Syndrome 2021,Benjamin Wallfisch,dereknalox123,4288823,188,False,2024-01-12T11:45:32.774639Z,0,1,0.3871,"['tech', 'electronic']",['ExpertPlus'],2024-01-12
+22,38d56,she'll never love you like i love you,haunt,Kacki,101324,95,False,2024-01-12T11:40:33.059409Z,0,0,0.5,"['accuracy', 'kids-family', 'balanced', 'folk-acoustic']",['ExpertPlus'],2024-01-12
+23,38d54,Bubbly,Good Kid,RFColaf,4335206,189,False,2024-01-12T11:20:45.782032Z,9,0,0.8294,"['accuracy', 'balanced', 'alternative', 'rock']","['Expert', 'ExpertPlus']",2024-01-12
+24,38d53,Brozone's Back,Brzone lol,maeryuu1,182683,83,False,2024-01-12T11:02:57.580174Z,0,1,0.3871,"['challenge', 'dance-style']",['Hard'],2024-01-12
+25,38d52,Umberella,The baseballs,Rhysholyoake,183007,190,False,2024-01-12T11:02:38.275941Z,0,0,0.5,"['dance-style', 'fitness', 'drum-and-bass', 'funk-disco']",['Hard'],2024-01-12
+26,38d51,Farewell,Shadow of Intent,BrayTree,183569,296,False,2024-01-12T10:49:16.004464Z,0,0,0.5,"['accuracy', 'tech', 'rock', 'j-rock']",['ExpertPlus'],2024-01-12
+27,38d3b,Wildfire,Against The Current,Jolec,179423,166,False,2024-01-12T09:36:22.178188Z,2,0,0.6771,"['balanced', 'dance-style', 'pop', 'rock']",['Hard'],2024-01-12
+28,38d35,Rubber Human,Mili,nsenuesu,288,144,False,2024-01-12T09:28:07.219014Z,1,0,0.6129,['j-pop'],"['Hard', 'Expert', 'ExpertPlus']",2024-01-12
+29,38d2e,Shukusei! Loli-Kami Requiem,Shigure Ui,komeijisan051,4285211,262,False,2024-01-12T08:42:15.327087Z,13,0,0.8598,"['balanced', 'j-pop', 'hardcore']",['ExpertPlus'],2024-01-12
+30,38d2c,Alola!,__No Artist Listed,S4kGR,176108,31,False,2024-01-12T06:49:07.633447Z,5,0,0.7732,['none'],['Expert'],2024-01-12
+31,38d2b,Problematic,NightKilla,baller_cyn,161562,92,False,2024-01-12T06:27:53.432852Z,0,1,0.3871,"['challenge', 'dance-style']",['ExpertPlus'],2024-01-12
+32,38d1f,Echo,__No Artist Listed,5hourmike,24979,180,False,2024-01-12T02:54:25.889169Z,0,0,0.5,['none'],['Expert'],2024-01-12
+33,38d1e,Haunt You,Clubhouse,Beenjohnwayne333,101294,310,False,2024-01-12T01:55:28.689052Z,0,1,0.3871,"['dance-style', 'dance', 'balanced', 'trance']",['ExpertPlus'],2024-01-12
+34,38d1c,Line Without a Hook,Ricky Montgomery,SpirLV_,106749,252,False,2024-01-12T01:30:54.456799Z,2,0,0.6771,"['accuracy', 'balanced']",['ExpertPlus'],2024-01-12
+35,38d1b,Yuugure One Room,40mp,EOP_Glacier,4284294,146,False,2024-01-12T00:51:53.187965Z,10,0,0.8386,"['tech', 'j-rock']","['Expert', 'ExpertPlus']",2024-01-12
+36,38d19,dumb dumb,mazie,frosted,155940,104,False,2024-01-12T00:22:46.822244Z,4,0,0.75,"['pop', 'balanced']",['Hard'],2024-01-12
+37,38d18,Celtic Blues,Paul Dateh,CMP1111,75106,153,False,2024-01-12T00:22:32.661417Z,6,0,0.7915,['jazz'],['ExpertPlus'],2024-01-12
+38,38d13,RENEGADE,VALORANT x 99 GOD x C103,BlAck_vOid-1001,4322317,164,False,2024-01-11T23:54:10.361811Z,0,0,0.5,"['balanced', 'hip-hop-rap']",['ExpertPlus'],2024-01-12
+39,38d11,Dream Sweet in Sea Major,ミラクルミュージカル,loltrainmasteralt,183516,420,False,2024-01-11T23:43:28.864043Z,1,1,0.5,"['vocaloid', 'classical-orchestral', 'speed', 'challenge']",['ExpertPlus'],2024-01-12
+40,38d10,Screaming In Public Restrooms Prank,Fortntie,parkeriscoo,4273240,22,False,2024-01-11T23:38:45.554868Z,0,0,0.5,"['soul', 'balanced', 'challenge', 'nightcore']",['ExpertPlus'],2024-01-12
+41,38d0d,Necrofantasia [BLACK MIDI],"LucasMIDI, umbry and Orangepaprika 67",Superkota5,152715,403,False,2024-01-11T22:46:51.623306Z,0,0,0.5,"['challenge', 'speed', 'instrumental', 'trance']",['ExpertPlus'],2024-01-12
+42,38d0c,MDMA,Ken Carson,Mysticxl,4296116,66,False,2024-01-11T21:55:46.891164Z,0,0,0.5,['speed'],['ExpertPlus'],2024-01-12
+43,38d08,elephantGreenScreen,elephant,_whiteleaf,182329,2,False,2024-01-11T21:16:46.510503Z,0,1,0.3871,['comedy-meme'],['ExpertPlus'],2024-01-12
+44,38d00,Fahrerflucht,"Trailerpark, Alligatoah",Bohnengulaschhandelsstandbesitzer,182536,218,False,2024-01-11T20:50:33.784151Z,0,0,0.5,['none'],['ExpertPlus'],2024-01-12
+45,38cfe,666,Roughsketch,IvyVR,181503,196,False,2024-01-11T20:45:58.310534Z,0,0,0.5,"['challenge', 'accuracy', 'comedy-meme', 'dance']",['ExpertPlus'],2024-01-12
+46,38cfc,Don't You Worry Child,Swedish House Mafia,ForsenCDPogU,4284542,216,False,2024-01-12T02:28:59.878770Z,5,0,0.7732,"['accuracy', 'electronic']",['Normal'],2024-01-12
+47,38cf9,F That S Up,DRS X MBK FT MC Robs,Qwan,124362,175,False,2024-01-12T01:42:40.384315Z,0,0,0.5,"['challenge', 'tech', 'hardcore', 'electronic']","['Expert', 'ExpertPlus']",2024-01-12
+48,38cf8,ZenitsuVsKaigaku,SoulRap,twitch_agod_boss,175786,237,False,2024-01-11T18:02:15.510961Z,0,0,0.5,"['balanced', 'accuracy', 'vocaloid', 'anime']","['Easy', 'Hard']",2024-01-12
+49,38cf5,cold weather,glass beach,decimate,177886,39,False,2024-01-11T17:47:53.412118Z,6,2,0.6594,"['dance-style', 'fitness', 'funk-disco']",['ExpertPlus'],2024-01-12

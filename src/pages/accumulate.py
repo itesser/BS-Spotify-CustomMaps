@@ -24,7 +24,6 @@ if st.button("Get Those Songs"):
     st.write("Please be patient, results may take 60 seconds to appear")
     try:
         s = SpotPull(date, hour, minute)
-        print(date, minute, hour)
         s.lookit_me = s.bs_data
         st.caption(
             """Buttons in the upper-right corner of the table can be used to:

@@ -68,9 +68,9 @@ class ToMongo:
                     {"bs_map_id": id_to_update},
                     {
                         "$set": {
-                            "upvotes": map_stats[0],
-                            "downvotes": map_stats[1],
-                            "score": map_stats[2],
+                            "upvotes": int(map_stats[0]),
+                            "downvotes": int(map_stats[1]),
+                            "score": float(map_stats[2]),
                             "last_fetched": str(date.today()),
                         }
                     },

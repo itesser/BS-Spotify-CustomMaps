@@ -12,21 +12,25 @@ from tag_manip import get_tags
 def release_era(yo):
     eras_dict = {
         "2011-2018": match_var[
-            (match_var["album_year"] >= "2011") & (match_var["album_year"] <= "2018")
+            (match_var["album_released"] >= 2011)
+            & (match_var["album_released"] <= 2018)
         ],
         "00s": match_var[
-            (match_var["album_year"] >= "2000") & (match_var["album_year"] <= "2010")
+            (match_var["album_released"] >= 2000)
+            & (match_var["album_released"] <= 2010)
         ],
         "90s": match_var[
-            (match_var["album_year"] >= "1990") & (match_var["album_year"] <= "1999")
+            (match_var["album_released"] >= 1990)
+            & (match_var["album_released"] <= 1999)
         ],
         "80s": match_var[
-            (match_var["album_year"] >= "1980") & (match_var["album_year"] <= "1989")
+            (match_var["album_released"] >= 1980)
+            & (match_var["album_released"] <= 1989)
         ],
-        "Older": match_var[match_var["album_year"] <= "1979"],
+        "Older": match_var[match_var["album_released"] <= 1979],
     }
     if len(yo) == 4:
-        return match_var[match_var["album_year"] == yo]
+        return match_var[match_var["album_released"] == int(yo)]
     else:
         return eras_dict[yo]
 
@@ -79,9 +83,6 @@ df = df.rename(columns={"duration_seconds": "duration_mins"})
 df[["upload_year", "upload_mo", "upload_day"]] = df.upload_date.str.split(
     "-", expand=True
 )
-df[["album_year", "album_mo", "album_day"]] = df.album_released.str.split(
-    "-", expand=True
-)
 df["total_votes"] = df["upvotes"] + df["downvotes"]
 df["score"] = df["score"] * 100
 
@@ -126,7 +127,9 @@ query_type = st.selectbox("How To Divvy up the Data?", options=col_filter_option
 # Duration
 if query_type == "Duration":
     dur_sort = st.radio(
-        "Which type of duration?", options=["Long", "Short"], horizontal=True
+        "Which type of duration? (Top 50 results will display)",
+        options=["Long", "Short"],
+        horizontal=True,
     )
     year_filter = st.selectbox(
         "Limit to Upload Year?",
@@ -140,7 +143,7 @@ if query_type == "Duration":
         dur_display = match_var[match_var["upload_year"] == year_filter].sort_values(
             "duration_mins", ascending=(dur_sort == "Short")
         )
-    st.dataframe(dur_display)
+    st.dataframe(dur_display.head(50))
 
 # Artist:
 elif query_type == "Artist":
@@ -187,35 +190,10 @@ elif query_type == "Album Release Date":
         "80s",
         "Older",
     ]
-    month_options = {
-        "All": 0,
-        "January": "01",
-        "February": "02",
-        "March": "03",
-        "April": "04",
-        "May": "05",
-        "June": "06",
-        "July": "07",
-        "August": "08",
-        "September": "09",
-        "October": "10",
-        "November": "11",
-        "December": "12",
-    }
 
     release_year = st.selectbox("Pick a Year or Era", options=year_options)
-    release_month = st.selectbox(
-        "Filter By Month (or not)", options=month_options.keys()
-    )
     selected_year_df = release_era(release_year)
-    if release_month == "All":
-        st.dataframe(selected_year_df)
-    else:
-        st.dataframe(
-            selected_year_df[
-                selected_year_df["album_mo"] == month_options[release_month]
-            ]
-        )
+    st.dataframe(selected_year_df)
 
 
 elif query_type == "Map Score":

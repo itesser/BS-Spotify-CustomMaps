@@ -57,9 +57,9 @@ class Beats:
             song["duration_seconds"] = bs_map_list[i]["metadata"]["duration"]
             song["auto_mapped"] = bs_map_list[i]["automapper"]
             song["upload_date"] = bs_map_list[i]["lastPublishedAt"]
-            song["upvotes"] = bs_map_list[i]["stats"]["upvotes"]
-            song["downvotes"] = bs_map_list[i]["stats"]["downvotes"]
-            song["score"] = bs_map_list[i]["stats"]["score"]
+            song["upvotes"] = int(bs_map_list[i]["stats"]["upvotes"])
+            song["downvotes"] = int(bs_map_list[i]["stats"]["downvotes"])
+            song["score"] = float(bs_map_list[i]["stats"]["score"])
             try:
                 song["tags"] = json_obj["docs"][i]["tags"]
             except:

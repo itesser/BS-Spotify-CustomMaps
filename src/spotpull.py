@@ -267,6 +267,16 @@ class SpotPull(Beats):
         self.bs_data["duration_difference"] = abs(
             self.bs_data["sp_duration"] / 1000 - self.bs_data["duration_seconds"]
         )
+
+        #
+        def trim(alb_date):
+            year_only = alb_date[:4]
+            return year_only
+
+        self.bs_data["album_released"] = (
+            self.bs_data["album_released"].map(trim).astype("int")
+        )
+
         # Songs are considered the same IF: title and artist match OR duration is within 20 seconds and either title or artist matches.
         self.bs_data["match_conclusion"] = (
             (self.bs_data[["artist_match", "title_match"]].all(axis=1))
